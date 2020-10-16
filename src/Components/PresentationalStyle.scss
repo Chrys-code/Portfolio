@@ -1,0 +1,41 @@
+.presentational_header {
+  position: relative;
+  margin: auto;
+  border-bottom: 2px solid #0abead;
+  width: 240px;
+
+  h1 {
+    color: #0abead;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    color: #95a5c6;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 35px 0px;
+  }
+}
+
+.presentational_header::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  height: 12px;
+  bottom: -7px;
+  left: 50%;
+  width: 50px;
+  background: #0abead;
+  border-radius: 6px;
+}
+
+.presentational_body {
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}

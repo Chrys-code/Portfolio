@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="375" viewBox="0 0 475 475">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc50c;
+      }
+
+      .cls-2 {
+        fill: #ffbb01;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 16px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-4 {
+        font-size: 24px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        filter: url(#bg_yellow);
+      }
+    </style>
+    <filter id="bg_yellow" x="0" y="0" width="475" height="475" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-color="#ffc50c" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Interface_Design" data-name="Interface Design" transform="translate(-796.5 -2402.5)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 796.5, 2402.5)">
+      <rect id="bg_yellow-2" data-name="bg_yellow" class="cls-1" width="370" height="370" transform="translate(52.5 52.5)"/>
+    </g>
+    <path id="Shape" class="cls-2" d="M849,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774,71.888-34.53,71.888-34.53v223.59H849Z"/>
+    <text id="Lipsum_as_it_is_sometimes_known_is_dummy_text_used_in_laying_out_print_graphic_or_web_designs." data-name="Lipsum as it is sometimes known
+is dummy text used in laying out print,
+ graphic or web designs." class="cls-3" transform="translate(881 2670.84)"><tspan x="20.552" y="17">Lipsum as it is sometimes known</tspan><tspan x="21.632" y="41">is dummy text used in laying out </tspan><tspan x="131.024" y="65">print,</tspan></text>
+    <text id="Interface_Design-2" data-name="Interface Design" class="cls-4" transform="translate(1032 2649)"><tspan x="-101.28" y="0">Interface Design</tspan></text>
+    <path id="icon" class="cls-5" d="M1027.482,2597.817l-26-11.228c-2.222-.96-3.5-2.452-3.5-4.089s1.274-3.128,3.5-4.089l4.126-1.782,19.9,8.6a23.472,23.472,0,0,0,16.961,0l19.9-8.595,4.127,1.782c2.222.96,3.5,2.451,3.5,4.089s-1.274,3.128-3.5,4.089l-26,11.228a18.5,18.5,0,0,1-13.016,0Zm0-16-26-11.228c-2.222-.96-3.5-2.45-3.5-4.089s1.274-3.128,3.5-4.089l4.127-1.782,19.9,8.6a23.44,23.44,0,0,0,16.96,0l19.9-8.6,4.127,1.782c2.221.96,3.5,2.45,3.5,4.089s-1.274,3.128-3.5,4.089l-26,11.228a18.5,18.5,0,0,1-13.016,0Zm0-16-26-11.228c-2.222-.96-3.5-2.45-3.5-4.088s1.274-3.129,3.5-4.09l26-11.228a18.461,18.461,0,0,1,13.017,0l26,11.228c2.222.96,3.5,2.451,3.5,4.09s-1.275,3.127-3.5,4.088l-26,11.228a18.459,18.459,0,0,1-13.016,0Z"/>
+  </g>
+</svg>

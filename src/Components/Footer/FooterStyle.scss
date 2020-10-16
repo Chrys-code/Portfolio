@@ -1,0 +1,25 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: #161d26;
+
+  .footer_container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+      margin: 0px 20px;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+}

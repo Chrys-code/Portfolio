@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="375" viewBox="0 0 475 475">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6331;
+      }
+
+      .cls-2 {
+        fill: #ff5823;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 16px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-4 {
+        font-size: 24px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        filter: url(#bg_blue);
+      }
+    </style>
+    <filter id="bg_blue" x="0" y="0" width="475" height="475" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-color="#ff6331" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Motion_Graphic" data-name="Motion Graphic" transform="translate(-796.5 -2802.5)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 796.5, 2802.5)">
+      <rect id="bg_blue-2" data-name="bg_blue" class="cls-1" width="370" height="370" transform="translate(52.5 52.5)"/>
+    </g>
+    <path id="Shape" class="cls-2" d="M849,3100.557s15.007-66.793,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774,71.888-34.528,71.888-34.528v223.589H849Z"/>
+    <text id="Lipsum_as_it_is_sometimes_known_is_dummy_text_used_in_laying_out_print_graphic_or_web_designs." data-name="Lipsum as it is sometimes known
+is dummy text used in laying out print,
+ graphic or web designs." class="cls-3" transform="translate(885 3070.84)"><tspan x="20.552" y="17">Lipsum as it is sometimes known</tspan><tspan x="21.632" y="41">is dummy text used in laying out </tspan><tspan x="131.024" y="65">print,</tspan></text>
+    <text id="UX_Design" data-name="UX Design" class="cls-4" transform="translate(1036 3048)"><tspan x="-62.172" y="0">UX Design</tspan></text>
+    <path id="icon" class="cls-5" d="M660.989,2999H588.011v-46.615h42.336l15.233-18.375h15.408V2999Zm-26.882-18.669h0l3.489,6.324h4.891l-5.935-10.758,5.935-10.758H637.6l-3.49,6.325-3.49-6.325h-4.891l5.936,10.758-5.936,10.758h4.891l3.489-6.324Zm-28.479-15.118v13.411a7.911,7.911,0,1,0,15.821,0v-13.411h-4.276v13.411a3.635,3.635,0,1,1-7.269,0v-13.411Zm22.718-17.132H588.011v-14.072h52l-11.666,14.072h0Zm-13.066-9.271v4.331h4.28v-4.331Zm-9.19,0v4.331h4.28v-4.331Zm-9.19,0v4.331h4.28v-4.331Z" transform="translate(409)"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+.services {
+  margin-top: 100px;
+
+  .services_tiles {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .tile_1,
+    .tile_2,
+    .tile_3,
+    .tile_4,
+    .tile_5,
+    .tile_6 {
+      height: 375px;
+      width: 375px;
+    }
+
+    .tile_1 {
+      background: url("../../Assets/Images/Services/Web_Design.svg");
+    }
+    .tile_2 {
+      background: url("../../Assets/Images/Services/Interface_Design.svg");
+    }
+    .tile_3 {
+      background: url("../../Assets/Images/Services/Web_Development.svg");
+    }
+    .tile_4 {
+      background: url("../../Assets/Images/Services/UX_Design.svg");
+    }
+    .tile_5 {
+      background: url("../../Assets/Images/Services/Motion_Graphic.svg");
+    }
+    .tile_6 {
+      background: url("../../Assets/Images/Services/Seo_Optimize.svg");
+    }
+  }
+}
