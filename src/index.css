@@ -19,6 +19,11 @@ code {
   position: relative;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
 a {
   text-decoration: none;
 }
