@@ -1,40 +1,51 @@
 import React from 'react'
 import "./PortfolioStyle.scss";
 
-const slides = [{
-    title: 'MyShoes',
-    subtitle: 'MySoes E-Commerce',
-    description: 'Best partner for a long way',
+const slides = [
+
+  {
+    title: 'Dev Portfolio',
+    subtitle: 'Portfolio',
+    description: 'My personal portfolio',
     image: "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-},
+    link: "http://localhost:3000/",
+  },
 {
-    title: 'Photographer Portfolio',
-    subtitle: 'Present your best pictures',
-    description: "Don't miss out a chance!",
+    title: 'Website Clone',
+    subtitle: 'Netflix',
+    description: "A Netflix clone",
     image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-},
+    link: "https://chrys-code.github.io/Netflix-clone/",
+
+  },
+  {
+    title: 'E-Commerce',
+    subtitle: 'MyShoes',
+    description: "Best partner for a long way",
+    image: require("../../Assets/Images/Portfolio/ecommerce.png"),
+    link: "https://myshoes-ecommerce.herokuapp.com/#/",
+
+  },
 {
-    title: 'Photographer Portfolio',
-    subtitle: 'Present your best pictures',
-    description: "Don't miss out a chance!",
+    title: 'Webiste Clone',
+    subtitle: 'Facebook',
+    description: "A Facebook clone",
     image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-},
+    link: "https://facebook-clone-5fe9e.web.app/",
+
+  },
 {
-    title: 'Photographer Portfolio',
-    subtitle: 'Present your best pictures',
-    description: "Don't miss out a chance!",
+    title: 'Photo Portfolio',
+    subtitle: 'Portfolio',
+    description: "Photographer portfolio",
     image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-},
-{
-    title: 'Photographer Portfolio',
-    subtitle: 'Present your best pictures',
-    description: "Don't miss out a chance!",
-    image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
-},
+    link: "https://chrys-code.github.io/Photography",
+
+  },
 ]
 
 const initialState = {
-    slideIndex: 0
+    slideIndex: 2
 }
 
 const slidesReducer = (state, event) => {
@@ -94,38 +105,46 @@ function useTilt(active) {
   
     return ref;
   }
+
+
+
     function Slide({ slide, offset }) {
         const active = offset === 0 ? true : null;
         const ref = useTilt(active);
-      
+        console.log(offset)
         return (
           <div
            ref={ref}
             className="slide"
             data-active={active}
             style={{
-              "--offset": offset,
+
+              zIndex: `${ -(Math.abs(offset)) +6}`,
+              "--offset": offset ,
               "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1
             }}
           >
-            <div
-              className="slideBackground"
-              style={{
-                backgroundImage: `url('${slide.image}')`
-              }}
-            />
+            <a href={slide.link} target="_blank" rel="noreferrer noopener">
+
             <div
               className="slideContent"
-              style={{
-                backgroundImage: `url('${slide.image}')`
+              style={ {
+                backgroundImage: `url('${slide.image}')`,
+
               }}
             >
+              <div className="frame_vertical_left"></div>
+              <div className="frame_horizontal_top"></div>
+              <div className="frame_vertical_right"></div>
+              <div className="frame_horizontal_bottom"></div>
+
               <div className="slideContentInner">
                 <h2 className="slideTitle">{slide.title}</h2>
                 <h3 className="slideSubtitle">{slide.subtitle}</h3>
                 <p className="slideDescription">{slide.description}</p>
               </div>
             </div>
+            </a>
           </div>
         );
       }
@@ -135,8 +154,8 @@ function Portfolio() {
     return (
             <div className="slides">
                 <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
-                {[...slides, ...slides, ...slides].map((slide, i) => {
-                let offset = slides.length + (state.slideIndex - i);
+                {slides.map((slide, i) => {
+                let offset =  1 + (state.slideIndex - i - 1);
                 return <Slide slide={slide} offset={offset} key={i} />;
                  })}      
                 <button onClick={() => dispatch({ type: "NEXT" })}>›</button>

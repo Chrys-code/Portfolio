@@ -115,6 +115,11 @@
       overflow: hidden;
       overflow-y: scroll;
 
+      .failed {
+        margin: auto;
+        color: white;
+      }
+
       .resume_pages_timeline {
         position: absolute;
         width: 2px;

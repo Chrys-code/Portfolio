@@ -1,14 +1,16 @@
 .portfolio {
-  margin-top: 200px;
+  margin-top: 300px;
   position: relative;
 
   .slides {
     margin: auto;
     position: relative;
+    user-select: none;
 
     display: grid;
     .slide {
       grid-area: 1 / -1;
+      position: relative;
     }
 
     button {
@@ -23,7 +25,8 @@
       top: 30%;
       transition: opacity 0.3s;
       opacity: 0.7;
-      z-index: 5;
+      z-index: 15;
+      cursor: pointer;
 
       &:hover {
         opacity: 1;
@@ -54,13 +57,18 @@
     }
   }
 */
+
   .slideContentInner {
+    position: absolute;
     transform-style: preserve-3d;
-    transform: translateZ(2rem);
-    transition: opacity 0.3s linear;
-    text-shadow: 0 0.1rem 1rem #000;
+    transform: translateZ(4rem) translate(-50%, -50%);
+    top: 75%;
+    left: 20%;
+    transition: opacity 0.2s linear;
+    text-shadow: 0 0.1rem 0.2rem #000;
     opacity: 0;
-    color: white;
+    color: #0abead;
+    font-weight: 800;
 
     .slideSubtitle,
     .slideTitle {
@@ -68,17 +76,34 @@
       font-weight: normal;
       letter-spacing: 0.2ch;
       text-transform: uppercase;
+      text-shadow: 0 0.1rem 0.2rem #000;
       margin: 0;
+      opacity: 0.8;
+      transition: 0.2s linear;
+
+      &:hover {
+        opacity: 1;
+      }
     }
 
     .slideSubtitle::before {
       content: "— ";
     }
 
+    .slideSubtitle::after {
+      content: " —";
+    }
+
     .slideDescription {
       margin: 0;
       font-size: 0.8rem;
       letter-spacing: 0.2ch;
+      opacity: 0.8;
+      transition: 0.2s linear;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
@@ -86,22 +111,66 @@
     width: 20vw;
     height: 25vw;
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
+    background-position: center center;
     transition: transform 0.5s ease-in-out;
-    opacity: 0.8;
-
+    opacity: 1;
     display: grid;
     align-content: center;
-
     transform-style: preserve-3d;
     transform: perspective(1000px) translateX(calc(100% * var(--offset)))
       rotateY(calc(-45deg * var(--dir)));
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  [class*="frame_vertical_"] {
+    position: absolute;
+    width: 30px;
+    transform: translateX(-50%) translateZ(-15px) rotateY(90deg);
+    height: 100%;
+    background: #0abead;
+  }
+
+  .frame_vertical_left {
+    left: 0px;
+  }
+
+  .frame_vertical_right {
+    right: -30px;
+  }
+
+  [class*="frame_horizontal_"] {
+    position: absolute;
+    height: 30px;
+    transform: translateY(-50%) translateZ(-15px) rotateX(90deg);
+    width: 100%;
+    background: #0abead;
+  }
+
+  .frame_horizontal_top {
+    top: 0px;
+  }
+
+  .frame_horizontal_bottom {
+    bottom: -30px;
   }
 
   .slide[data-active] {
+    position: relative;
     z-index: 2;
     pointer-events: auto;
+    transition: 0.1s linear;
+    cursor: none;
+    opacity: 1;
 
     .slideContentInner {
       opacity: 1;
@@ -110,15 +179,19 @@
     .slideContent {
       --x: calc(var(--px) - 0.5);
       --y: calc(var(--py) - 0.5);
-      opacity: 1;
-
       transform: perspective(1000px);
 
       &:hover {
-        transition: none;
+        opacity: 1;
+        transition: 0.1s linear;
         transform: perspective(1000px) rotateY(calc(var(--x) * 45deg))
           rotateX(calc(var(--y) * -45deg));
       }
     }
+  }
+
+  .slide[data-active]:active {
+    transition: 0.1s linear;
+    transform: scale(0.98);
   }
 }

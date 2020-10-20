@@ -35,7 +35,7 @@ function App() {
       <Presentational section={'portfolio'} title={"Portfolio"} subTitle={"Check out the lastest works."} bg={false}>
         <Portfolio />
       </Presentational>
-      <Presentational section={'blog'} title={"Blog"} subTitle={"Some arcticles that raised my interest."} bg={false}>
+      <Presentational section={'blog'} title={"Blog"} subTitle={"Some arcticles that raised my interest."} bg={true}>
         <Blog />
       </Presentational>
       <Footer />
