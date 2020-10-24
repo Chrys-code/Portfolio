@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import ScrollIntoView from 'react-scroll-into-view';
+
 import "./HeroStyle.scss";
+
 import heroShapeDark from '../../Assets/Images/Hero/ShapeDark.svg';
-import heroShapeLight from '../../Assets/Images/Hero/ShapeLight.svg'
+import heroShapeLight from '../../Assets/Images/Hero/ShapeLight.svg';
 
 function Hero() {
 
@@ -17,15 +20,19 @@ function Hero() {
     return (
         <div className="hero container_static">
             <div className="row">
-            <div className="hero_intro col-xlg-5 col-lg-12">
-                <div className="hero_intro_info">
-                <h2>Hello, I'm  <span>Krisztian Nagy</span></h2>
-                <h1>Web Developer</h1>
-                <p>Freelancer & Full-Stack Web Developer</p>
+                <div className="hero_intro col-xlg-5 col-lg-12">
+                <   div className="hero_intro_info">
+                    <h2>Hello, I'm  <span>Krisztian Nagy</span></h2>
+                    <h1>Web Developer</h1>
+                    <p>Freelancer & Full-Stack Web Developer</p>
                 </div>
                 <div className="hero_intro_buttons">
-                <a href="#"><div className="hero_intro_button_1"><p>Hire Me</p></div></a>
-                <a href="#"><div className="hero_intro_button_2"><p>Resume</p></div></a>
+                    <ScrollIntoView selector="footer">
+                        <div className="hero_intro_button_1"><p>Hire Me</p></div>
+                    </ScrollIntoView>
+                    <ScrollIntoView selector=".resume">
+                        <div className="hero_intro_button_2"><p>Resume</p></div>
+                    </ScrollIntoView>
                 </div>
             </div>
             <div className="hero_profileImage col-xlg-5 offset-xlg-2 col-lg-12">
@@ -38,4 +45,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default Hero;

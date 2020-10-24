@@ -1,8 +1,12 @@
 .about {
-  margin-top: 100px;
+  padding-top: 120px;
 
   .about_body_img {
     height: 550px;
+
+    img {
+      object-fit: cover;
+    }
   }
 
   .about_body_text {

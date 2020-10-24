@@ -1,5 +1,5 @@
 .portfolio {
-  margin-top: 300px;
+  padding-top: 180px;
   position: relative;
 
   .slides {
@@ -134,8 +134,8 @@
 
   [class*="frame_vertical_"] {
     position: absolute;
-    width: 30px;
-    transform: translateX(-50%) translateZ(-15px) rotateY(90deg);
+    width: 20px;
+    transform: translateX(-50%) translateZ(-10px) rotateY(90deg);
     height: 100%;
     background: #0abead;
   }
@@ -145,13 +145,13 @@
   }
 
   .frame_vertical_right {
-    right: -30px;
+    right: -20px;
   }
 
   [class*="frame_horizontal_"] {
     position: absolute;
-    height: 30px;
-    transform: translateY(-50%) translateZ(-15px) rotateX(90deg);
+    height: 20px;
+    transform: translateY(-50%) translateZ(-10px) rotateX(90deg);
     width: 100%;
     background: #0abead;
   }
@@ -161,7 +161,7 @@
   }
 
   .frame_horizontal_bottom {
-    bottom: -30px;
+    bottom: -20px;
   }
 
   .slide[data-active] {

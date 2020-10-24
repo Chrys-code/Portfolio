@@ -2,7 +2,9 @@ import React from 'react'
 import Fade from "react-reveal";
 
 function ResumeAppViewport(props) {
-    const {state, EducationList, SkillList, WorkList, SEOList} = props;
+    const {state, EducationList, SkillList, WorkList, HobbyList} = props;
+
+
 
     return (
             <div className="resume_pages">
@@ -31,7 +33,6 @@ function ResumeAppViewport(props) {
                             <div className="header"> 
                                 <div className="timeline_dot"></div>    
                                 <h3>{stage.Title}</h3>
-                                <div className="year">{stage.year}</div>
                             </div>
                             <h4>{stage.SubTitle}</h4>
                             <p>{stage.description}</p>
@@ -56,14 +57,13 @@ function ResumeAppViewport(props) {
                     </div>
                     </Fade>
 
-                    <Fade left when={state.SEO}>
-                    <div className={"resume_pages_page_4" + (state.SEO === true? "--active" : "")}>
-                    {SEOList.map((stage, i) => {return (
+                    <Fade left when={state.Hobby}>
+                    <div className={"resume_pages_page_4" + (state.Hobby === true? "--active" : "")}>
+                    {HobbyList.map((stage, i) => {return (
                         <div className="resume_content_body" key={i}>
                             <div className="header"> 
                                 <div className="timeline_dot"></div>    
                                 <h3>{stage.Title}</h3>
-                                <div className="year">{stage.year}</div>
                             </div>
                             <h4>{stage.SubTitle}</h4>
                             <p>{stage.description}</p>

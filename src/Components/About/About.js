@@ -1,32 +1,32 @@
 import React from 'react'
 import "./AboutStyle.scss"
+import ScrollIntoView from 'react-scroll-into-view';
 
 
 function About() {
     return (
         <>
         <div className="about_body_img">
-            <img style={{height: '550px', width: '500px'}} src="#" alt=""></img>
+            <img style={{height: '550px', width: '500px'}} src={require("../../Assets/Images/About/me.jpg")} alt=""></img>
         </div>
         <div className="about_body_text">
             <h2>Why choose me?</h2>
-            <p> Lorem ipsum, or lipsum as it is sometimes known, is dummy text 
-                used in laying out print, graphic or web designs. The passage is 
-                attributed to an unknown typesetter in the 15th century who is 
-                thought to have scrambled parts of Cicero's De Finibus Bonorum 
-                et Malorum for use in a type specimen book.</p>
-
-            <p>Here are few features: </p>
+            <p>I am a third-year Student at Southampton Solent University, learning Digital Design & Web Development. During the course I gained knowledge in different fields on both sides of Human Digital Interaction and End-To-End Web Development. I devote more time to programming than just attend the Unviersity. I learn something new every day.</p>
+            <p>In the following fields: </p>
             <ul>
-                <li>User Interface Design </li>
-                <li>User Interface Design </li>
-                <li>User Interface Design </li>        
-                <li>User Interface Design </li>
+                <li>User Interface Design</li>
+                <li>User Experience Design</li>
+                <li>End-To-End Web Development</li>        
+                <li>Data Science</li>
 
             </ul>
             <div className="about_body_text_buttons">
-                <a className="about_body_text_button_1" href="#"><div><p>Hire Me</p></div></a>
-                <a className="about_body_text_button_2" href="#"><div><p>Resume</p></div></a>
+                    <ScrollIntoView selector="footer">
+                        <div className="about_body_text_button_1"><p>Hire Me</p></div>
+                    </ScrollIntoView>
+                    <ScrollIntoView selector=".resume">
+                        <div className="about_body_text_button_2"><p>Resume</p></div>
+                    </ScrollIntoView>
             </div>
         </div>
      </>

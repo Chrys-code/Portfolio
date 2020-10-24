@@ -9,6 +9,7 @@ import Resume from "./Components/Resume/Resume";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";
 import Blog from "./Components/Blog/Blog";
+//import Contact from "./Components/Contact/Contact";
 import "./media.scss";
 
 
@@ -16,14 +17,20 @@ import "./media.scss";
 const backgroundDark = {
   background: "#161d26",
 }
-
+/*
+const backgroundLight = {
+  background: "#FFFFFF",
+}
+*/
 
 function App() {
+
+
   return (
     <div className="App" style={backgroundDark} >
-      <Navbar />
-      <Hero />
-      <Presentational section={'about'} title={"About Us"} subTitle={"Why choose me?"} bg={false}>
+      <Navbar  />
+      <Hero  />
+      <Presentational section={'about'} title={"About Us"} subTitle={"Why choose me?"} bg={false} >
         <About/>
       </Presentational>
       <Presentational section={'services'} title={"Services"} subTitle={"Wat can we provide you?"} bg={false}>
@@ -42,6 +49,13 @@ function App() {
 
     </div>
   );
+/*
+  <Presentational section={'contact'} title={"Contact Me"} subTitle={"Let's keep in touch!"} bg={false}>
+  <Contact />
+</Presentational>
+*/
+
+
 }
 
 export default App;

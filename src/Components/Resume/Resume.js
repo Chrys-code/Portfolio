@@ -15,31 +15,25 @@ const EducationList = [{
 ]
 
 const SkillList = [{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+    Title:"Web Development" , SubTitle: "Web Technologies I use reguralry to achieve contemporary application design", description: "To create fast and SEO friendly websites I use React and to achieve accessibility I use SASS and Bootstrap. Despite the variety of development tools I maintain strong grounding in HTML5, CSS3 and JavaScript." , year: "" ,
     },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+    Title:"Development Tools" , SubTitle: "Tools I learned to use during my projects", description: "During developments I learned to use tools such as: Terminal, Webpack, SASS, Bootstrap, and Git." , year: "" ,
     },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+    Title:"Digitla Design" , SubTitle: "Technologies I use reguralry to achieve contemporary design", description: "None of the websites and applications are appealing without an outstanding design. AdobeXD, Figma and PhotoShop are unavoidable design tools to maintain enjoyment in our online appearance and increase customer retention." , year: "" ,
     },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
-    },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+        Title:"Web Technologies I learn" , SubTitle: "Web technologies I learn & practice", description: "GraphQL & Serverless Applications, Server Side Rendering, Static Site Generators such as Next.js." , year: "" ,
     },
 ]
 
 const WorkList = [
 ]
 
-const SEOList = [{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+const HobbyList = [{
+    Title:"Information Technology" , SubTitle: "From PCs to Sound Technology", description: "I am interested all the way in personal electronics." , year: "" ,
     },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+    Title:"Programming" , SubTitle: "Web Development & Problem Solving", description: "University is not the only activity I devote to learn Web Development. I consntantly solving tasks on CodeWars and practicing JavaScript by creating projects, following JAM-stack & PWAs." , year: "" ,
     },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
-    },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
-    },{
-    Title:"Example School Name" , SubTitlte: "Example Course Name", description: "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator." , year: "2010-2105" ,
+    Title:"Sport" , SubTitle: "I love swimming", description: "However I love swimming, at the moment I do not have the opportunity to excercise." , year: "" ,
     },
 ]
 
@@ -50,7 +44,7 @@ export class Resume extends Component {
             Education: true,
             Skills: false,
             Work: false,
-            SEO: false,
+            Hobby: false,
         }
     }
 
@@ -61,16 +55,17 @@ export class Resume extends Component {
             Education: false,
             Skills: false,
             Work: false,
-            SEO: false,
+            Hobby: false,
             [name]: value})
         } 
 
+    
 
     render() {
         return (
             <div className="resume_app">
                 <Library handler={this.onClickHandle} state={this.state} />
-                <Viewport state={this.state} EducationList={EducationList} SkillList={SkillList} WorkList={WorkList} SEOList={SEOList} />
+                <Viewport state={this.state} EducationList={EducationList} SkillList={SkillList} WorkList={WorkList} HobbyList={HobbyList} />
             </div>
 
         )}

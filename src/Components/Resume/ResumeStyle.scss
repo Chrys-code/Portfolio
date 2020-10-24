@@ -1,6 +1,6 @@
 .resume {
-  margin-top: 200px;
-  padding-bottom: 50px;
+  margin-top: 100px;
+  padding: 200px 0px 200px 0px;
   position: relative;
   z-index: 5;
   user-select: none;
@@ -123,7 +123,7 @@
       .resume_pages_timeline {
         position: absolute;
         width: 2px;
-        height: 110%;
+        height: 160%;
         background: #0abead;
         left: 20px;
         top: 0;

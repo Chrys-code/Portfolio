@@ -5,6 +5,7 @@ footer {
   right: 0;
   height: 100px;
   background: #161d26;
+  z-index: 15;
 
   .footer_container {
     max-width: 1200px;
@@ -15,11 +16,25 @@ footer {
     align-items: center;
     justify-content: flex-end;
 
-    img {
-      margin: 0px 20px;
+    span {
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 25%;
+      position: absolute;
+      letter-spacing: 5px;
+      font-weight: 500;
+      color: #95a5c6;
     }
-    img:hover {
-      cursor: pointer;
+
+    a {
+      margin: 10px;
+
+      img {
+        margin: 0px 20px;
+      }
+      img:hover {
+        cursor: pointer;
+      }
     }
   }
 }

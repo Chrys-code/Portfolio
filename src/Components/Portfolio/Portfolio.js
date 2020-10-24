@@ -7,14 +7,14 @@ const slides = [
     title: 'Dev Portfolio',
     subtitle: 'Portfolio',
     description: 'My personal portfolio',
-    image: "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image: require("../../Assets/Images/Portfolio/Portfolio_1.png"),
     link: "http://localhost:3000/",
   },
 {
     title: 'Website Clone',
     subtitle: 'Netflix',
     description: "A Netflix clone",
-    image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image: require("../../Assets/Images/Portfolio/Netflix_1.png"),
     link: "https://chrys-code.github.io/Netflix-clone/",
 
   },
@@ -22,7 +22,7 @@ const slides = [
     title: 'E-Commerce',
     subtitle: 'MyShoes',
     description: "Best partner for a long way",
-    image: require("../../Assets/Images/Portfolio/ecommerce.png"),
+    image: require("../../Assets/Images/Portfolio/Ecommerce_1.png"),
     link: "https://myshoes-ecommerce.herokuapp.com/#/",
 
   },
@@ -30,15 +30,15 @@ const slides = [
     title: 'Webiste Clone',
     subtitle: 'Facebook',
     description: "A Facebook clone",
-    image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image: require("../../Assets/Images/Portfolio/Facebook_1.png"),
     link: "https://facebook-clone-5fe9e.web.app/",
 
   },
 {
-    title: 'Photo Portfolio',
+    title: 'Photographer',
     subtitle: 'Portfolio',
     description: "Photographer portfolio",
-    image: "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+    image: require("../../Assets/Images/Portfolio/Linda_1.png"),
     link: "https://chrys-code.github.io/Photography",
 
   },
@@ -111,7 +111,7 @@ function useTilt(active) {
     function Slide({ slide, offset }) {
         const active = offset === 0 ? true : null;
         const ref = useTilt(active);
-        console.log(offset)
+        
         return (
           <div
            ref={ref}

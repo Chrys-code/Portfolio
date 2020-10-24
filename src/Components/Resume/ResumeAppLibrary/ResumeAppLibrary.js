@@ -29,8 +29,8 @@ function ResumeAppLibrary(props) {
                 <div className={(state.Work === true? "slide--active" : "slide")}></div>
             </div>
             <div className="resume_library_option_4">
-                <div className="option" onClick={handler}>SEO</div>
-                <div className={(state.SEO === true? "slide--active" : "slide")}></div>
+                <div className="option" onClick={handler}>Hobby</div>
+                <div className={(state.Hobby === true? "slide--active" : "slide")}></div>
             </div>
         </div>
         </div>
