@@ -1,6 +1,8 @@
+@import "../../Fonts&Colors.scss";
+@import "../../media.scss";
+
 .resume {
-  margin-top: 100px;
-  padding: 200px 0px 200px 0px;
+  padding: 150px 15px 150px 15px;
   position: relative;
   z-index: 5;
   user-select: none;
@@ -19,12 +21,12 @@
 
     /* Track */
     ::-webkit-scrollbar-track {
-      background: #f1f1f1;
+      background: $backgroundLight;
     }
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-      background: #f57f17;
+      background: $highlight_2;
     }
 
     /* Handle on hover */
@@ -36,14 +38,17 @@
       position: relative;
       height: 450px;
       width: 400px;
-      background: #161d26;
+      background: $backgroundDark;
       display: flex;
       flex-direction: row;
+      @include lg {
+        width: 300px;
+      }
 
       .resume_library_icons {
         width: 42px;
         height: 100%;
-        background: #0abead;
+        background: $highlight;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -59,20 +64,31 @@
       }
 
       [class*="resume_library_option_"] {
+        @include header($pTextColor);
         position: relative;
         margin: 0px 40px;
-        cursor: pointer;
-        color: #95a5c6;
-        font-size: 20px;
-        font-weight: 600;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        cursor: pointer;
+
+        @include lg {
+          @include desktop_header($pTextColor);
+        }
+        @include md {
+          @include tabletAndDesktop_header($pTextColor);
+        }
+        @include sm {
+          @include tablet_header($pTextColor);
+        }
+        @include xsm {
+          @include mobile_header($pTextColor);
+        }
 
         .option {
           z-index: 5;
           padding: 0px 20px;
-          color: white;
+          color: $pTextWhite;
         }
 
         .option:hover {
@@ -84,7 +100,7 @@
           left: -80px;
           top: 50%;
           transform: translateY(-50%);
-          background: #0abead;
+          background: $highlight;
           height: 70px;
           width: 60px;
           border-radius: 100px;
@@ -97,7 +113,7 @@
           left: -80px;
           top: 50%;
           transform: translateY(-50%);
-          background: #0abead;
+          background: $highlight;
           height: 70px;
           width: 250px;
           border-radius: 100px;
@@ -114,77 +130,124 @@
       margin-left: 25px;
       overflow: hidden;
       overflow-y: scroll;
+      @include lg {
+        margin-left: 10px;
+        width: 650px;
+      }
 
       .failed {
         margin: auto;
-        color: white;
+        color: $pTextWhite;
       }
 
       .resume_pages_timeline {
         position: absolute;
         width: 2px;
         height: 160%;
-        background: #0abead;
+        background: $highlight;
         left: 20px;
         top: 0;
-      }
-
-      [class*="timeline_dot"] {
-        position: absolute;
-        border-radius: 20px;
-        height: 15px;
-        width: 15px;
-        background: #0abead;
-        top: 17px;
-        left: -20px;
-        transform: translate(-50%, -50%);
-      }
-
-      .timeline_dot_3 {
-        top: 355px;
       }
 
       [class*="resume_pages_page_"] {
         position: absolute;
         display: none;
-        width: 90%;
+        width: 93%;
         height: 100%;
         margin-left: 40px;
         text-align: left;
 
         .header {
           position: relative;
-
           display: flex;
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
+          width: 100%;
+          &:before {
+            content: "";
+            position: absolute;
+            border-radius: 20px;
+            height: 15px;
+            width: 15px;
+            background: $highlight;
+            top: 17px;
+            left: -20px;
+            transform: translate(-50%, -50%);
+          }
 
           .year {
+            @include text($pTextWhite);
+            background: $highlight_2;
             padding: 5px 15px;
-            background: #f57f17;
             border-radius: 20px;
-            color: white;
-            font-weight: 500;
+
+            @include lg {
+              @include desktop_text($pTextWhite);
+            }
+            @include md {
+              @include tabletAndDesktop_text($pTextWhite);
+            }
+            @include sm {
+              @include tablet_text($pTextWhite);
+            }
+            @include xsm {
+              @include mobile_text($pTextWhite);
+            }
           }
         }
 
         h3 {
-          font-size: 20px;
-          font-weight: 600;
-          color: #f57f17;
-          margin: 0;
-          padding: 0;
+          @include header($highlight_2);
+          @include lg {
+            @include desktop_header($highlight_2);
+          }
+          @include md {
+            @include tabletAndDesktop_header($highlight_2);
+          }
+          @include sm {
+            @include tablet_header($highlight_2);
+          }
+          @include xsm {
+            @include mobile_header($highlight_2);
+          }
         }
 
         h4 {
-          font-weight: 600;
-          font-size: 16px;
-          color: #95a5c6;
+          @include text_strong;
+          padding: 10px 0px 0px 0px;
+
+          @include lg {
+            @include desktop_text_strong;
+          }
+          @include md {
+            @include tabletAndDesktop_text_strong;
+          }
+          @include sm {
+            @include tablet_text_strong;
+          }
+          @include xsm {
+            @include mobile_text_strong;
+          }
         }
 
         p {
-          color: #95a5c6;
+          @include text($pTextColor);
+          padding: 10px 0px 10px 0px;
+          text-align: justify;
+
+          @include lg {
+            @include desktop_text($pTextColor);
+          }
+          @include md {
+            @include tabletAndDesktop_text($pTextColor);
+          }
+          @include sm {
+            @include tablet_text($pTextColor);
+          }
+          @include xsm {
+            @include mobile_text($pTextColor);
+          }
         }
       }
 

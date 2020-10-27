@@ -22,10 +22,10 @@ function About() {
             </ul>
             <div className="about_body_text_buttons">
                     <ScrollIntoView selector="footer">
-                        <div className="about_body_text_button_1"><p>Hire Me</p></div>
+                        <div className="about_body_text_button_1"><a>Hire Me</a></div>
                     </ScrollIntoView>
                     <ScrollIntoView selector=".resume">
-                        <div className="about_body_text_button_2"><p>Resume</p></div>
+                        <div className="about_body_text_button_2"><a>Resume</a></div>
                     </ScrollIntoView>
             </div>
         </div>

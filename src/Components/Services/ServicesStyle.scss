@@ -1,5 +1,8 @@
+@import "../../Fonts&Colors.scss";
+@import "../../media.scss";
+
 .services {
-  padding-top: 100px;
+  padding: 100px 15px 0px 15px;
   z-index: 5;
 
   .services_tiles {
@@ -8,6 +11,9 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    @include md {
+      grid-template-columns: repeat(2, 1fr);
+    }
 
     [class*="tile_"] {
       height: 300px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import Presentational from './Components/Presentational';
@@ -10,7 +10,6 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";
 import Blog from "./Components/Blog/Blog";
 //import Contact from "./Components/Contact/Contact";
-import "./media.scss";
 
 
 

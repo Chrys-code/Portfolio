@@ -1,5 +1,8 @@
+@import "../../Fonts&Colors.scss";
+@import "../../media.scss";
+
 .portfolio {
-  padding-top: 180px;
+  padding-top: 100px;
   position: relative;
 
   .slides {
@@ -25,7 +28,7 @@
       top: 30%;
       transition: opacity 0.3s;
       opacity: 0.7;
-      z-index: 15;
+      z-index: 10;
       cursor: pointer;
 
       &:hover {
@@ -62,18 +65,31 @@
     position: absolute;
     transform-style: preserve-3d;
     transform: translateZ(4rem) translate(-50%, -50%);
+    width: 20vw;
     top: 75%;
     left: 20%;
     transition: opacity 0.2s linear;
     text-shadow: 0 0.1rem 0.2rem #000;
     opacity: 0;
-    color: #0abead;
-    font-weight: 800;
+    color: $highlight;
+    font-weight: $bold;
 
     .slideSubtitle,
     .slideTitle {
-      font-size: 2rem;
-      font-weight: normal;
+      @include portfolioHeader($highlight);
+      @include lg {
+        @include desktop_portfolioHeader($highlight);
+      }
+      @include md {
+        @include tabletAndDesktop_portfolioHeader($highlight);
+      }
+      @include sm {
+        @include tablet_portfolioHeader($highlight);
+      }
+      @include xsm {
+        @include mobile_portfolioHeader($highlight);
+      }
+
       letter-spacing: 0.2ch;
       text-transform: uppercase;
       text-shadow: 0 0.1rem 0.2rem #000;
@@ -95,8 +111,20 @@
     }
 
     .slideDescription {
-      margin: 0;
-      font-size: 0.8rem;
+      @include portfolioSubHeader($highlight);
+      @include lg {
+        @include desktop_portfolioSubHeader($highlight);
+      }
+      @include md {
+        @include tabletAndDesktop_portfolioSubHeader($highlight);
+      }
+      @include sm {
+        @include tablet_portfolioSubHeader($highlight);
+      }
+      @include xsm {
+        @include mobile_portfolioSubHeader($highlight);
+      }
+
       letter-spacing: 0.2ch;
       opacity: 0.8;
       transition: 0.2s linear;

@@ -18,26 +18,25 @@ function Hero() {
     }
     
     return (
-        <div className="hero container_static">
-            <div className="row">
-                <div className="hero_intro col-xlg-5 col-lg-12">
-                <   div className="hero_intro_info">
+        <div className="hero">
+                <div className="hero_intro">
+                <div className="hero_intro_info">
                     <h2>Hello, I'm  <span>Krisztian Nagy</span></h2>
                     <h1>Web Developer</h1>
                     <p>Freelancer & Full-Stack Web Developer</p>
                 </div>
                 <div className="hero_intro_buttons">
                     <ScrollIntoView selector="footer">
-                        <div className="hero_intro_button_1"><p>Hire Me</p></div>
+                      <div className="hero_intro_button_1"><a>Hire Me</a></div>
                     </ScrollIntoView>
                     <ScrollIntoView selector=".resume">
-                        <div className="hero_intro_button_2"><p>Resume</p></div>
+                    <div className="hero_intro_button_2"><a>Resume</a></div>
                     </ScrollIntoView>
-                </div>
             </div>
-            <div className="hero_profileImage col-xlg-5 offset-xlg-2 col-lg-12">
-                <img style={{width: '470px', height: '470px'}} src={require('../../Assets/Images/Hero/me.jpg')} alt="en" />
             </div>
+
+            <div className="hero_profileImage">
+                <img src={require('../../Assets/Images/Hero/me.jpg')} alt="en" />
             </div>
 
             <img style={heroImage} src={heroShapeDark} alt="en" />

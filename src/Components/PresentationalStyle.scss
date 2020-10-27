@@ -1,3 +1,6 @@
+@import "../Fonts&Colors.scss";
+@import "../media.scss";
+
 .presentational_header {
   position: relative;
   margin: auto;
@@ -5,18 +8,37 @@
   width: 280px;
 
   h1 {
-    color: #0abead;
-    font-size: 48px;
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
+    @include intro_title;
+    @include lg {
+      @include desktop_intro_title;
+    }
+    @include md {
+      @include tabletAndDesktop_intro_title;
+    }
+    @include sm {
+      @include tablet_intro_title;
+    }
+    @include xsm {
+      @include mobile_intro_title;
+    }
   }
 
   p {
-    color: #95a5c6;
-    font-size: 16px;
-    font-weight: 400;
+    @include text($pTextColor);
     margin: 0px 0px 35px 0px;
+
+    @include lg {
+      @include desktop_text($pTextColor);
+    }
+    @include md {
+      @include tabletAndDesktop_text($pTextColor);
+    }
+    @include sm {
+      @include tablet_text($pTextColor);
+    }
+    @include xsm {
+      @include mobile_text($pTextColor);
+    }
   }
 }
 
@@ -28,7 +50,7 @@
   bottom: -7px;
   left: 50%;
   width: 50px;
-  background: #0abead;
+  background: $highlight;
   border-radius: 6px;
 }
 

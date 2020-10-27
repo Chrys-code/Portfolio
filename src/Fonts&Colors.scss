@@ -1,0 +1,366 @@
+////////////////////////////////////////////
+// Desktop
+// Font-size
+////////////////////////////////////////////
+$fontSizeTitle: 50px;
+$fontSizePrimary: 48px;
+$fontSizeSecondary: 24px;
+$fontSizeTeritary: 20px;
+$fontSizeqQuaternary: 16px;
+$portfolioTitlePrimary: 26px;
+$portfolioTitleSecondary: 18px;
+$portfolioTextPrimary: 16px;
+$portfolioTextSecondary: 12px;
+
+////////////////////////////////////////////
+// Desktop modification
+// Font-size
+////////////////////////////////////////////
+$desktop_fontSizeTitle: 48px;
+$desktop_fontSizePrimary: 44px;
+$desktop_fontSizeSecondary: 24px;
+$desktop_fontSizeTeritary: 20px;
+$desktop_fontSizeqQuaternary: 16px;
+$desktop_portfolioTitlePrimary: 24px;
+$desktop_portfolioTitleSecondary: 16px;
+$desktop_portfolioTextPrimary: 14px;
+$desktop_portfolioTextSecondary: 12px;
+
+////////////////////////////////////////////
+// tabletAndDesktop
+// Font-size
+////////////////////////////////////////////
+$tabletAndDesktop_fontSizeTitle: 44px;
+$tabletAndDesktop_fontSizePrimary: 32px;
+$tabletAndDesktop_fontSizeSecondary: 22px;
+$tabletAndDesktop_fontSizeTeritary: 20px;
+$tabletAndDesktop_fontSizeqQuaternary: 16px;
+$tabletAndDesktop_portfolioTitlePrimary: 18px;
+$tabletAndDesktop_portfolioTitleSecondary: 16px;
+$tabletAndDesktop_portfolioTextPrimary: 12px;
+$tabletAndDesktop_portfolioTextSecondary: 12px;
+
+////////////////////////////////////////////
+// tablet
+// Font-size
+////////////////////////////////////////////
+$tablet_fontSizeTitle: 36px;
+$tablet_fontSizePrimary: 24px;
+$tablet_fontSizeSecondary: 22px;
+$tablet_fontSizeTeritary: 20px;
+$tablet_fontSizeqQuaternary: 16px;
+$tablet_portfolioTitlePrimary: 18px;
+$tablet_portfolioTitleSecondary: 16px;
+$tablet_portfolioTextPrimary: 12px;
+$tablet_portfolioTextSecondary: 12px;
+
+////////////////////////////////////////////
+// mobile
+// Font-size
+////////////////////////////////////////////
+$mobile_fontSizeTitle: 32px;
+$mobile_fontSizePrimary: 22px;
+$mobile_fontSizeSecondary: 20px;
+$mobile_fontSizeTeritary: 16px;
+$mobile_fontSizeqQuaternary: 14px;
+$mobile_portfolioTitlePrimary: 18px;
+$mobile_portfolioTitleSecondary: 16px;
+$mobile_portfolioTextPrimary: 12px;
+$mobile_portfolioTextSecondary: 12px;
+
+////////////////////////////////////////////
+//Colors, background-colors and font-weight
+//Font-weight
+////////////////////////////////////////////
+$regular: 400;
+$semiBold: 500;
+$bold: 600;
+
+// Background
+$backgroundDark: #161d26;
+$backgroundLight: #ffffff;
+$textBacgroundDark: #1f2935;
+// Background Highlights
+$backgroundOrange: #ff6331;
+$backgroundViolet: #803afb;
+$backgroundRed: #f5276c;
+
+// Text Color
+// Highlights
+$highlight: #0abead;
+$highlight_2: #f57f17;
+//
+$pTextColor: #95a5c6;
+$pTextOrange: #ff6331;
+$pTextViolet: #803afb;
+$pTextRed: #f5276c;
+$pTextWhite: white;
+
+////////////////////////////////////////////
+// SETS // Desktop +
+////////////////////////////////////////////
+// Intro
+@mixin intro_title {
+  font-size: $fontSizeTitle;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Subtitle
+@mixin subtitle {
+  font-size: $fontSizeSecondary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Title
+@mixin title {
+  font-size: $fontSizePrimary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Header
+@mixin header($color) {
+  font-size: $fontSizeTeritary;
+  font-weight: $bold;
+  color: $color;
+}
+// Text
+@mixin text($color) {
+  font-size: $fontSizeqQuaternary;
+  font-weight: $regular;
+  color: $color;
+}
+//Text Strong
+@mixin text_strong {
+  font-size: $fontSizeqQuaternary;
+  font-weight: $bold;
+  color: $pTextColor;
+}
+
+// Portfolio
+// Title
+@mixin portfolioHeader($color) {
+  font-size: $portfolioTitlePrimary;
+  font-weight: $bold;
+  color: $color;
+}
+// SubTitle
+@mixin portfolioSubHeader($color) {
+  font-size: $portfolioTextPrimary;
+  font-weight: $bold;
+  color: $color;
+}
+
+////////////////////////////////////////////
+// SETS // Desktop modification
+////////////////////////////////////////////
+//Intro
+@mixin desktop_intro_title {
+  font-size: $desktop_fontSizeTitle;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Subtitle
+@mixin desktop_subtitle {
+  font-size: $desktop_fontSizeSecondary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Title
+@mixin desktop_title {
+  font-size: $desktop_fontSizePrimary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Header
+@mixin desktop_header($color) {
+  font-size: $desktop_fontSizeTeritary;
+  font-weight: $bold;
+  color: $color;
+}
+// Text
+@mixin desktop_text($color) {
+  font-size: $desktop_fontSizeqQuaternary;
+  font-weight: $regular;
+  color: $color;
+}
+// Text Strong
+@mixin desktop_text_strong {
+  font-size: $desktop_fontSizeqQuaternary;
+  font-weight: $bold;
+  color: $pTextColor;
+}
+// Portfolio
+// Title
+@mixin desktop_portfolioHeader($color) {
+  font-size: $desktop_portfolioTitlePrimary;
+  font-weight: $bold;
+  color: $color;
+}
+// SubTitle
+@mixin desktop_portfolioSubHeader($color) {
+  font-size: $desktop_portfolioTextPrimary;
+  font-weight: $bold;
+  color: $color;
+}
+
+////////////////////////////////////////////
+// SETS // tabletAndDesktop
+////////////////////////////////////////////
+//Intro
+@mixin tabletAndDesktop_intro_title {
+  font-size: $tabletAndDesktop_fontSizeTitle;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Subtitle
+@mixin tabletAndDesktop_subtitle {
+  font-size: $tabletAndDesktop_fontSizeSecondary;
+  font-weight: $bold;
+  color: $highlight;
+}
+
+// Title
+@mixin tabletAndDesktop_title {
+  font-size: $tabletAndDesktop_fontSizePrimary;
+  font-weight: $bold;
+  color: $highlight;
+}
+
+// Header
+@mixin tabletAndDesktop_header($color) {
+  font-size: $tabletAndDesktop_fontSizeTeritary;
+  font-weight: $bold;
+  color: $color;
+}
+
+// Text
+@mixin tabletAndDesktop_text($color) {
+  font-size: $tabletAndDesktop_fontSizeqQuaternary;
+  font-weight: $regular;
+  color: $color;
+}
+// Text Strong
+@mixin tabletAndDesktop_text_strong {
+  font-size: $tabletAndDesktop_fontSizeqQuaternary;
+  font-weight: $bold;
+  color: $pTextColor;
+}
+// Portfolio
+// Title
+@mixin tabletAndDesktop_portfolioHeader($color) {
+  font-size: $tabletAndDesktop_portfolioTitlePrimary;
+  font-weight: $bold;
+  color: $color;
+}
+// SubTitle
+@mixin tabletAndDesktop_portfolioSubHeader($color) {
+  font-size: $tabletAndDesktop_portfolioTextPrimary;
+  font-weight: $bold;
+  color: $color;
+}
+
+////////////////////////////////////////////
+// SETS // tablet
+////////////////////////////////////////////
+// Intro
+@mixin tablet_intro_title {
+  font-size: $tablet_fontSizeTitle;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Subtitle
+@mixin tablet_subtitle {
+  font-size: $tablet_fontSizeSecondary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Title
+@mixin tablet_title {
+  font-size: $tablet_fontSizePrimary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Header
+@mixin tablet_header($color) {
+  font-size: $tablet_fontSizeTeritary;
+  font-weight: $bold;
+  color: $color;
+}
+// Text
+@mixin tablet_text($color) {
+  font-size: $tablet_fontSizeqQuaternary;
+  font-weight: $regular;
+  color: $color;
+}
+// Text Strong
+@mixin tablet_text_strong {
+  font-size: $tablet_fontSizeqQuaternary;
+  font-weight: $bold;
+  color: $pTextColor;
+}
+// Portfolio
+// Title
+@mixin tablet_portfolioHeader($color) {
+  font-size: $tablet_portfolioTitlePrimary;
+  font-weight: $bold;
+  color: $color;
+}
+// SubTitle
+@mixin tablet_portfolioSubHeader($color) {
+  font-size: $tablet_portfolioTextPrimary;
+  font-weight: $bold;
+  color: $color;
+}
+
+////////////////////////////////////////////
+// SETS // mobile
+////////////////////////////////////////////
+//Intro
+@mixin mobile_intro_title {
+  font-size: $mobile_fontSizeTitle;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Subtitle
+@mixin mobile_subtitle {
+  font-size: $mobile_fontSizeSecondary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Title
+@mixin mobile_title {
+  font-size: $mobile_fontSizePrimary;
+  font-weight: $bold;
+  color: $highlight;
+}
+// Header
+@mixin mobile_header($color) {
+  font-size: $mobile_fontSizeTeritary;
+  font-weight: $bold;
+  color: $color;
+}
+// Text
+@mixin mobile_text($color) {
+  font-size: $mobile_fontSizeqQuaternary;
+  font-weight: $regular;
+  color: $color;
+}
+// Text Strong
+@mixin mobile_text_strong {
+  font-size: $mobile_fontSizeqQuaternary;
+  font-weight: $bold;
+  color: $pTextColor;
+}
+// Portfolio
+// Title
+@mixin mobile_portfolioHeader($color) {
+  font-size: $mobile_portfolioTitlePrimary;
+  font-weight: $bold;
+  color: $color;
+}
+// SubTitle
+@mixin mobile_portfolioSubHeader($color) {
+  font-size: $mobile_portfolioTextPrimary;
+  font-weight: $bold;
+  color: $color;
+}

@@ -1,15 +1,26 @@
+@import "../../Fonts&Colors.scss";
+@import "../../media.scss";
+
 .hero {
   position: relative;
   min-height: 90vh;
-  padding-top: 10vh;
+  padding: 10vh 15px 0px 15px;
   user-select: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
   .hero_intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 470px;
-    margin-top: 10vh;
+    width: 400px;
+    z-index: 10;
+    @include md {
+      margin: 0;
+    }
 
     .hero_intro_info {
       display: flex;
@@ -18,31 +29,56 @@
       justify-content: center;
 
       h1 {
+        @include intro_title;
         margin: 10px 0px 0px 0px;
-        padding: 0;
-        font-size: 50px;
-        font-weight: 600;
-        color: #0abead;
-      }
 
-      h2 {
-        margin: 0;
-        padding: 0;
-        font-size: 28px;
-        font-weight: 600;
-        color: #0cbfae;
-
-        span {
-          color: #f57f17;
+        @include lg {
+          @include desktop_intro_title;
+        }
+        @include md {
+          @include tabletAndDesktop_intro_title;
+        }
+        @include sm {
+          @include tablet_intro_title;
+        }
+        @include xsm {
+          @include mobile_intro_title;
         }
       }
 
-      p {
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-        font-weight: 400;
-        color: #95a5c6;
+      h2 {
+        @include subtitle;
+        @include lg {
+          @include desktop_subtitle;
+        }
+        @include md {
+          @include tablet_subtitle;
+        }
+        @include sm {
+          @include tablet_subtitle;
+        }
+        @include xsm {
+          @include mobile_subtitle;
+        }
+      }
+      span {
+        color: $highlight_2;
+      }
+    }
+
+    p {
+      @include text($pTextColor);
+      @include lg {
+        @include desktop_text($pTextColor);
+      }
+      @include md {
+        @include tabletAndDesktop_text($pTextColor);
+      }
+      @include sm {
+        @include tablet_text($pTextColor);
+      }
+      @include xsm {
+        @include mobile_text($pTextColor);
       }
     }
 
@@ -55,18 +91,32 @@
 
       .hero_intro_button_1,
       .hero_intro_button_2 {
-        padding: 1px 60px;
+        padding: 15px 60px;
         border-radius: 30px;
+        color: $pTextWhite;
+        cursor: pointer;
+
         p {
-          color: white;
+          @include text($pTextWhite);
+          @include lg {
+            @include desktop_text($pTextWhite);
+          }
+          @include md {
+            @include tabletAndDesktop_text($pTextWhite);
+          }
+          @include sm {
+            @include tablet_text($pTextWhite);
+          }
+          @include xsm {
+            @include mobile_text($pTextWhite);
+          }
         }
       }
-
       .hero_intro_button_1 {
-        background: #09bead;
+        background: $highlight;
       }
       .hero_intro_button_2 {
-        background: #f57f17;
+        background: $highlight_2;
       }
     }
   }
@@ -77,6 +127,25 @@
     border: 23px solid #1f2935;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 10vh;
+    margin-left: 100px;
+    z-index: 10;
+
+    @include lg {
+      height: 360px;
+      width: 360px;
+    }
+    @include md {
+      display: none;
+    }
+
+    img {
+      height: 460px;
+      width: 460px;
+
+      @include lg {
+        height: 360px;
+        width: 360px;
+      }
+    }
   }
 }

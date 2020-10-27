@@ -15,7 +15,6 @@ function ResumeAppViewport(props) {
                         {EducationList.map((stage, i) => {return (
                         <div className="resume_content_body" key={i}>
                             <div className="header"> 
-                                <div className="timeline_dot"></div>    
                                 <h3>{stage.Title}</h3>
                                 <div className="year">{stage.year}</div>
                             </div>
@@ -31,7 +30,6 @@ function ResumeAppViewport(props) {
                     {SkillList.map((stage, i) => {return (
                         <div className="resume_content_body" key={i}>
                             <div className="header"> 
-                                <div className="timeline_dot"></div>    
                                 <h3>{stage.Title}</h3>
                             </div>
                             <h4>{stage.SubTitle}</h4>
@@ -46,7 +44,6 @@ function ResumeAppViewport(props) {
                     {WorkList.length > 0 ? WorkList.map((stage, i) => {return (
                         <div className="resume_content_body" key={i}>
                             <div className="header"> 
-                                <div className="timeline_dot"></div>    
                                 <h3>{stage.Title}</h3>
                                 <div className="year">{stage.year}</div>
                             </div>
@@ -62,7 +59,6 @@ function ResumeAppViewport(props) {
                     {HobbyList.map((stage, i) => {return (
                         <div className="resume_content_body" key={i}>
                             <div className="header"> 
-                                <div className="timeline_dot"></div>    
                                 <h3>{stage.Title}</h3>
                             </div>
                             <h4>{stage.SubTitle}</h4>

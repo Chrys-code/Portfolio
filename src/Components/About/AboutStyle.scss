@@ -1,8 +1,15 @@
+@import "../../Fonts&Colors.scss";
+@import "../../media.scss";
+
 .about {
-  padding-top: 120px;
+  padding: 100px 15px 0px 15px;
 
   .about_body_img {
     height: 550px;
+
+    @include md {
+      display: none;
+    }
 
     img {
       object-fit: cover;
@@ -12,25 +19,66 @@
   .about_body_text {
     padding: 25px 25px;
     text-align: left;
-    background: #1f2935;
+    background: $textBacgroundDark;
 
     h2 {
-      color: #95a5c6;
+      @include header($pTextColor);
+      padding-bottom: 20px;
+
+      @include lg {
+        @include desktop_header($pTextColor);
+      }
+      @include md {
+        @include tabletAndDesktop_header($pTextColor);
+      }
+      @include sm {
+        @include tablet_header($pTextColor);
+      }
+      @include xsm {
+        @include mobile_header($pTextColor);
+      }
     }
 
     p {
+      @include text($pTextColor);
       text-align: justify;
-      color: #95a5c6;
+      padding-bottom: 10px;
+
+      @include lg {
+        @include desktop_text($pTextColor);
+      }
+      @include md {
+        @include text($pTextColor);
+      }
+      @include sm {
+        @include tablet_text($pTextColor);
+      }
+      @include xsm {
+        @include mobile_text($pTextColor);
+      }
     }
 
     li {
-      color: #95a5c6;
+      @include text($pTextColor);
+
+      @include lg {
+        @include desktop_text($pTextColor);
+      }
+      @include md {
+        @include tabletAndDesktop_text($pTextColor);
+      }
+      @include sm {
+        @include tablet_text($pTextColor);
+      }
+      @include xsm {
+        @include mobile_text($pTextColor);
+      }
     }
 
     li:before {
       content: "•";
       padding-right: 8px;
-      color: #f57f17;
+      color: $highlight_2;
     }
 
     .about_body_text_buttons {
@@ -42,19 +90,33 @@
 
       .about_body_text_button_1,
       .about_body_text_button_2 {
-        padding: 1px 60px;
+        padding: 15px 60px;
         border-radius: 30px;
+        color: $pTextWhite;
+        cursor: pointer;
 
         p {
-          color: white;
+          @include text($pTextWhite);
+          @include lg {
+            @include desktop_text($pTextWhite);
+          }
+          @include md {
+            @include tabletAndDesktop_text($pTextWhite);
+          }
+          @include sm {
+            @include tablet_text($pTextWhite);
+          }
+          @include xsm {
+            @include mobile_text($pTextWhite);
+          }
         }
       }
 
       .about_body_text_button_1 {
-        background: #09bead;
+        background: $highlight;
       }
       .about_body_text_button_2 {
-        background: #f57f17;
+        background: $highlight_2;
       }
     }
   }
