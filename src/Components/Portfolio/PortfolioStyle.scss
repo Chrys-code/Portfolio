@@ -5,10 +5,17 @@
   padding-top: 100px;
   position: relative;
 
+  /////////////////////////
+  // Desktop Portfolio
+  /////////////////////////
+
   .slides {
     margin: auto;
     position: relative;
     user-select: none;
+    @include md {
+      display: none;
+    }
 
     display: grid;
     .slide {
@@ -61,6 +68,10 @@
   }
 */
 
+  /////////////////////////
+  // Desktop Portfolio Continue
+  /////////////////////////
+
   .slideContentInner {
     position: absolute;
     transform-style: preserve-3d;
@@ -69,7 +80,7 @@
     top: 75%;
     left: 20%;
     transition: opacity 0.2s linear;
-    text-shadow: 0 0.1rem 0.2rem #000;
+    text-shadow: 0 0.1rem 0.1rem #000;
     opacity: 0;
     color: $highlight;
     font-weight: $bold;

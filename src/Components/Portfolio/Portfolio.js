@@ -1,6 +1,11 @@
 import React from 'react'
 import "./PortfolioStyle.scss";
 
+
+  /////////////////////////
+  // Desktop Portfolio
+  /////////////////////////
+
 const slides = [
 
   {
@@ -164,3 +169,5 @@ function Portfolio() {
 }
 
 export default Portfolio
+
+
