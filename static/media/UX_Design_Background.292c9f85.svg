@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="370.088" viewBox="0 0 370 370.088">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6331;
+      }
+
+      .cls-2 {
+        fill: #ff5823;
+      }
+    </style>
+  </defs>
+  <g id="UX_Design" data-name="UX Design" transform="translate(-449 -2855)">
+    <rect id="bg_orange" class="cls-1" width="370" height="370" transform="translate(449 2855)"/>
+    <path id="Shape" class="cls-2" d="M449,3100.557s15.007-66.793,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774,71.888-34.528,71.888-34.528v223.589H449Z"/>
+  </g>
+</svg>

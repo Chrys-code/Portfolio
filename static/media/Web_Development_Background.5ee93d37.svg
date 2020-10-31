@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="370.088" viewBox="0 0 370 370.088">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ec407a;
+      }
+
+      .cls-2 {
+        fill: #f5276c;
+      }
+    </style>
+  </defs>
+  <g id="Web_Development" data-name="Web Development" transform="translate(-1249 -2455)">
+    <rect id="bg_red" class="cls-1" width="370" height="370" transform="translate(1249 2455)"/>
+    <path id="shape" class="cls-2" d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"/>
+  </g>
+</svg>
