@@ -3,6 +3,9 @@
 
 .about {
   padding: 100px 15px 0px 15px;
+  @include xsm {
+    padding: 70px 15px 0px 15px;
+  }
 
   .about_body_img {
     height: 550px;
@@ -20,6 +23,11 @@
     padding: 25px 25px;
     text-align: left;
     background: $textBacgroundDark;
+
+    @include md {
+      margin: auto;
+      width: 600px;
+    }
 
     h2 {
       @include header($pTextColor);
@@ -88,12 +96,19 @@
       justify-content: space-evenly;
       align-items: center;
 
+      @include xsm {
+        margin-top: 20px;
+      }
+
       .about_body_text_button_1,
       .about_body_text_button_2 {
         padding: 15px 60px;
         border-radius: 30px;
         color: $pTextWhite;
         cursor: pointer;
+        @include xsm {
+          padding: 10px 40px;
+        }
 
         p {
           @include text($pTextWhite);

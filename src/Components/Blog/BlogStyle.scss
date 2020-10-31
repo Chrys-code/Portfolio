@@ -29,7 +29,11 @@
       justify-content: space-between;
 
       @include sm {
-        width: 345px;
+        width: 80%;
+      }
+
+      @include xsm {
+        width: 100%;
       }
 
       .blog_body_card_header {
@@ -50,10 +54,12 @@
           color: $pTextWhite;
         }
         @include sm {
+          height: 140px;
           @include tablet_subtitle;
           color: $pTextWhite;
         }
         @include xsm {
+          height: 120px;
           @include mobile_subtitle;
           color: $pTextWhite;
         }
@@ -65,6 +71,7 @@
         align-items: flex-start;
         flex-direction: column;
         padding-left: 0px;
+        margin-top: 10px;
 
         a {
           @include text($pTextColor);

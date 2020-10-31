@@ -1,3 +1,6 @@
+@import "../../Fonts&Colors.scss";
+@import "../../media.scss";
+
 footer {
   position: absolute;
   bottom: 0;
@@ -16,21 +19,47 @@ footer {
     align-items: center;
     justify-content: flex-end;
 
+    @include sm {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
     span {
-      transform: translate(-50%, -50%);
-      top: 50%;
-      left: 25%;
       position: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translateY(-50%);
       letter-spacing: 5px;
       font-weight: 500;
       color: #95a5c6;
+
+      @include sm {
+        transform: translateX(-50%);
+        left: 50%;
+        width: 100%;
+        letter-spacing: 2px;
+      }
     }
 
     a {
-      margin: 10px;
+      padding: 10px;
+      @include sm {
+        padding: 5px;
+      }
 
       img {
-        margin: 0px 20px;
+        top: 50%;
+        padding: 0px 20px;
+        @include sm {
+          padding: 0px 10px;
+          height: 36px;
+          width: 36px;
+        }
+        @include xsm {
+          padding: 0px 5px;
+          height: 32px;
+          width: 32px;
+        }
       }
       img:hover {
         cursor: pointer;

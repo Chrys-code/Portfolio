@@ -1,6 +1,12 @@
 @import "../Fonts&Colors.scss";
 @import "../media.scss";
 
+img {
+  @include sm {
+    height: 125%;
+  }
+}
+
 .presentational_header {
   position: relative;
   margin: auto;
@@ -60,4 +66,8 @@
   margin-top: 100px;
   display: flex;
   flex-direction: row;
+
+  @include xsm {
+    margin-top: 40px;
+  }
 }

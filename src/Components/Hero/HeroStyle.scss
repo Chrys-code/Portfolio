@@ -96,6 +96,10 @@
         color: $pTextWhite;
         cursor: pointer;
 
+        @include xsm {
+          padding: 10px 40px;
+        }
+
         p {
           @include text($pTextWhite);
           @include lg {

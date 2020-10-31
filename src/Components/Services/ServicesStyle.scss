@@ -16,33 +16,86 @@
     }
 
     [class*="tile_"] {
-      height: 300px;
-      width: 300px;
+      position: relative;
+      max-height: 300px;
+      max-width: 300px;
       transition: all 0.4s ease;
       margin: 10px;
+
+      @include xsm {
+        margin: 5px;
+      }
+
+      .services_tiles_background {
+        width: 100%;
+        height: auto;
+      }
+
+      .service_tiles_icon,
+      h2,
+      p {
+        width: 300px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        text-align: center;
+
+        @include sm {
+          width: 250px;
+        }
+
+        @include xsm {
+          width: 200px;
+        }
+      }
+
+      .service_tiles_icon {
+        top: 30%;
+        max-height: 65px;
+        max-width: 65px;
+
+        @include xsm {
+          top: 40%;
+          max-height: 45px;
+          max-width: 45px;
+        }
+      }
+
+      h2 {
+        top: 50%;
+        @include desktop_subtitle;
+        color: white;
+
+        @include sm {
+          @include tablet_subtitle;
+          color: white;
+        }
+
+        @include xsm {
+          @include mobile_header($pTextWhite);
+          top: 65%;
+        }
+      }
+
+      p {
+        @include desktop_text($pTextWhite);
+        height: 50px;
+        top: 67.5%;
+
+        @include sm {
+          @include tablet_text($pTextWhite);
+        }
+
+        @include xsm {
+          display: none;
+        }
+      }
     }
 
     [class*="tile_"]:hover {
       transform: scale(1.05);
-    }
-
-    .tile_1 {
-      background: url("../../Assets/Images/Services/Web_Design.svg");
-    }
-    .tile_2 {
-      background: url("../../Assets/Images/Services/Interface_Design.svg");
-    }
-    .tile_3 {
-      background: url("../../Assets/Images/Services/Web_Development.svg");
-    }
-    .tile_4 {
-      background: url("../../Assets/Images/Services/UX_Design.svg");
-    }
-    .tile_5 {
-      background: url("../../Assets/Images/Services/Motion_Graphic.svg");
-    }
-    .tile_6 {
-      background: url("../../Assets/Images/Services/Seo_Optimize.svg");
     }
   }
 }

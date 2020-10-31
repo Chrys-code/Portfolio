@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="370.088" viewBox="0 0 370 370.088">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc50c;
+      }
+
+      .cls-2 {
+        fill: #ffbb01;
+      }
+    </style>
+  </defs>
+  <g id="Interface_Design" data-name="Interface Design" transform="translate(-849 -2455)">
+    <path id="bg_yellow" class="cls-1" d="M0,0H370V370H0Z" transform="translate(849 2455)"/>
+    <path id="Shape" class="cls-2" d="M849,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774,71.888-34.53,71.888-34.53v223.59H849Z"/>
+  </g>
+</svg>

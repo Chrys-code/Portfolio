@@ -49,7 +49,7 @@ export class Resume extends Component {
     }
 
     onClickHandle = (e) => {
-        let name = e.target.innerText;
+        let name = e.target.id;
         let value = !this.state[name];
         this.setState({
             Education: false,
