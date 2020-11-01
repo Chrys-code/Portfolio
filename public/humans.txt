@@ -5,3 +5,7 @@ Author:
 Desktop Grapics Design:
     Tauhid Hasan
     Dhaka, Bangladesh
+
+Developed By:
+    Krisztian Nagy
+    Southampton, England

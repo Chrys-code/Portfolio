@@ -10,12 +10,15 @@
   .navbar_container {
     max-width: 1200px;
     height: 10vh;
-    min-height: 64px;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    @include sm {
+      min-height: 46px;
+    }
 
     .navbar_logo {
       flex: 0.2;
