@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.75e1c9d1.chunk.css",
-    "main.js": "/portfolio/static/js/main.bdd3a184.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bdd3a184.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.219ecc35.chunk.css",
+    "main.js": "/portfolio/static/js/main.2832e26f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2832e26f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.2623bd20.chunk.js": "/portfolio/static/js/2.2623bd20.chunk.js",
-    "static/js/2.2623bd20.chunk.js.map": "/portfolio/static/js/2.2623bd20.chunk.js.map",
+    "static/js/2.7b07caac.chunk.js": "/portfolio/static/js/2.7b07caac.chunk.js",
+    "static/js/2.7b07caac.chunk.js.map": "/portfolio/static/js/2.7b07caac.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.227aad279d6d45ea5c6375d6284cf0dc.js": "/portfolio/precache-manifest.227aad279d6d45ea5c6375d6284cf0dc.js",
+    "precache-manifest.a03647416f645761087bb88f09495794.js": "/portfolio/precache-manifest.a03647416f645761087bb88f09495794.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.75e1c9d1.chunk.css.map": "/portfolio/static/css/main.75e1c9d1.chunk.css.map",
-    "static/js/2.2623bd20.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2623bd20.chunk.js.LICENSE.txt",
+    "static/css/main.219ecc35.chunk.css.map": "/portfolio/static/css/main.219ecc35.chunk.css.map",
+    "static/js/2.7b07caac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7b07caac.chunk.js.LICENSE.txt",
     "static/media/Ecommerce_1.png": "/portfolio/static/media/Ecommerce_1.71c26df6.png",
     "static/media/Facebook_1.png": "/portfolio/static/media/Facebook_1.be6dbef8.png",
     "static/media/Interface_Design_Background.svg": "/portfolio/static/media/Interface_Design_Background.366225c6.svg",
@@ -24,7 +24,6 @@
     "static/media/Seo_Optimize_Background.svg": "/portfolio/static/media/Seo_Optimize_Background.244a6943.svg",
     "static/media/Seo_Optimize_Icon.svg": "/portfolio/static/media/Seo_Optimize_Icon.e0d2d61c.svg",
     "static/media/ShapeDark.svg": "/portfolio/static/media/ShapeDark.54cfaf80.svg",
-    "static/media/ShapeLight.svg": "/portfolio/static/media/ShapeLight.7a06adff.svg",
     "static/media/UX_Design_Background.svg": "/portfolio/static/media/UX_Design_Background.292c9f85.svg",
     "static/media/UX_Design_Icon.svg": "/portfolio/static/media/UX_Design_Icon.3b92ac9d.svg",
     "static/media/Web_Design_Background.svg": "/portfolio/static/media/Web_Design_Background.778c93c1.svg",
@@ -39,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.2623bd20.chunk.js",
-    "static/css/main.75e1c9d1.chunk.css",
-    "static/js/main.bdd3a184.chunk.js"
+    "static/js/2.7b07caac.chunk.js",
+    "static/css/main.219ecc35.chunk.css",
+    "static/js/main.2832e26f.chunk.js"
   ]
 }
