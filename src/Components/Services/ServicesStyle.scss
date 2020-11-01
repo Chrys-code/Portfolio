@@ -35,8 +35,8 @@
       h2,
       p {
         width: 300px;
-        padding: 0;
-        margin: 0;
+        padding: 0px;
+        margin: 0px;
         position: absolute;
         transform: translate(-50%, -50%);
         left: 50%;
@@ -47,7 +47,7 @@
         }
 
         @include xsm {
-          width: 200px;
+          width: 155px;
         }
       }
 
@@ -76,6 +76,7 @@
         @include xsm {
           @include mobile_header($pTextWhite);
           top: 65%;
+          padding: 0px 2px 0px 2px;
         }
       }
 
