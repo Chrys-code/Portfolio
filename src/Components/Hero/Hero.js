@@ -4,7 +4,6 @@ import ScrollIntoView from 'react-scroll-into-view';
 import "./HeroStyle.scss";
 
 import heroShapeDark from '../../Assets/Images/Hero/ShapeDark.svg';
-import heroShapeLight from '../../Assets/Images/Hero/ShapeLight.svg';
 
 function Hero() {
 
@@ -27,10 +26,10 @@ function Hero() {
                 </div>
                 <div className="hero_intro_buttons">
                     <ScrollIntoView selector="footer">
-                      <div className="hero_intro_button_1"><a>Hire Me</a></div>
+                      <div className="hero_intro_button_1">Hire Me</div>
                     </ScrollIntoView>
                     <ScrollIntoView selector=".resume">
-                    <div className="hero_intro_button_2"><a>Resume</a></div>
+                    <div className="hero_intro_button_2">Resume</div>
                     </ScrollIntoView>
             </div>
             </div>

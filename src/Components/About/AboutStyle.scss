@@ -109,22 +109,6 @@
         @include xsm {
           padding: 10px 40px;
         }
-
-        p {
-          @include text($pTextWhite);
-          @include lg {
-            @include desktop_text($pTextWhite);
-          }
-          @include md {
-            @include tabletAndDesktop_text($pTextWhite);
-          }
-          @include sm {
-            @include tablet_text($pTextWhite);
-          }
-          @include xsm {
-            @include mobile_text($pTextWhite);
-          }
-        }
       }
 
       .about_body_text_button_1 {

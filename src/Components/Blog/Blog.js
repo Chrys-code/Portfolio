@@ -18,59 +18,21 @@ const js_react = [
     {
         title: "Sample",  
         content: "",      
-    },    {
-        title: "Sample",  
-        content: "",      
-    },
-    {
-        title: "Sample",  
-        content: "",      
-    },
-    {
-        title: "Sample",  
-        content: "",      
-    },
-
-
+    }, 
 ]
 
 const events = [
     {
         title: "Sample",  
         content: "",      
-    },    {
-        title: "Sample",  
-        content: "",      
     },
-    {
-        title: "Sample",  
-        content: "",      
-    },
-    {
-        title: "Sample",  
-        content: "",      
-    },
-
 ]
 
 const updates = [
     {
         title: "Sample",  
         content: "",      
-    },    {
-        title: "Sample",  
-        content: "",      
     },
-    {
-        title: "Sample",  
-        content: "",      
-    },
-    {
-        title: "Sample",  
-        content: "",      
-    },
-
-
 ]
 
 
