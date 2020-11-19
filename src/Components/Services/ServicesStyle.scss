@@ -2,6 +2,7 @@
 @import "../../media.scss";
 
 .services {
+  position: relative;
   padding: 100px 15px 0px 15px;
   z-index: 5;
 
@@ -29,6 +30,7 @@
       .services_tiles_background {
         width: 100%;
         height: auto;
+        pointer-events: none;
       }
 
       .service_tiles_icon,
@@ -41,6 +43,7 @@
         transform: translate(-50%, -50%);
         left: 50%;
         text-align: center;
+        pointer-events: none;
 
         @include sm {
           width: 250px;

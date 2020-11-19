@@ -13,7 +13,7 @@ const slides = [
     subtitle: 'Portfolio',
     description: 'My personal portfolio',
     image: require("../../Assets/Images/Portfolio/Portfolio_1.png"),
-    link: "http://localhost:3000/",
+    link: "https://chrys-code.github.io/portfolio/",
   },
 {
     title: 'Website Clone',

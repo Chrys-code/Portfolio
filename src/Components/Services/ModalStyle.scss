@@ -1,0 +1,156 @@
+.modal_wrapper {
+  position: fixed;
+  padding-top: 10vh;
+  width: 100%;
+  height: 100%;
+  background: rgba(101, 118, 151, 0.5);
+  z-index: 15;
+
+  .modal {
+    position: relative;
+    margin: auto;
+    margin-top: 10vh;
+    width: 50%;
+    height: 60%;
+    background: rgb(199, 199, 199);
+    pointer-events: none;
+    color: white;
+
+    img {
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transform: translateX(-50%);
+      z-index: 0;
+    }
+
+    .modal_icon {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      height: 64px;
+      width: 64px;
+      z-index: 1;
+      transform: translateX(-50%);
+    }
+
+    h2,
+    p,
+    ul {
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+
+    h2 {
+      top: 22%;
+    }
+
+    p {
+      top: 32%;
+    }
+
+    //////////////////////////////////////
+    // Modals Customization Modal 0
+    //////////////////////////////////////
+    .modal_0_info {
+      .modal_0_text:nth-of-type(1) {
+        text-align: justify;
+
+        top: 42%;
+      }
+      .modal_0_text:nth-of-type(2) {
+        top: 57.5%;
+      }
+
+      ul {
+        top: 70%;
+        text-align: left;
+      }
+    }
+    //////////////////////////////////////
+    // Modals Customization Modal 1
+    //////////////////////////////////////
+    .modal_1_info {
+      .modal_1_text:nth-of-type(1) {
+        top: 50%;
+        text-align: justify;
+      }
+    }
+    //////////////////////////////////////
+    // Modals Customization Modal 2
+    //////////////////////////////////////
+
+    .modal_2_info {
+      .modal_2_text:nth-of-type(1) {
+        top: 42%;
+        text-align: justify;
+      }
+      .modal_2_text:nth-of-type(2) {
+        top: 57.5%;
+      }
+
+      ul {
+        top: 70%;
+        text-align: left;
+      }
+    }
+
+    //////////////////////////////////////
+    // Modals Customization Modal 3
+    //////////////////////////////////////
+
+    .modal_3_info {
+      .modal_3_text:nth-of-type(1) {
+        top: 50%;
+        text-align: justify;
+      }
+      .modal_3_text:nth-of-type(2) {
+        top: 75%;
+        text-align: justify;
+      }
+    }
+
+    //////////////////////////////////////
+    // Modals Customization Modal 4
+    //////////////////////////////////////
+
+    .modal_4_info {
+      .modal_4_text:nth-of-type(1) {
+        text-align: justify;
+        top: 50%;
+      }
+      .modal_4_text:nth-of-type(2) {
+        text-align: justify;
+
+        top: 65%;
+      }
+    }
+
+    //////////////////////////////////////
+    // Modals Customization Modal 4
+    //////////////////////////////////////
+
+    .modal_5_info {
+      .modal_5_text:nth-of-type(1) {
+        text-align: justify;
+        top: 40%;
+      }
+
+      .modal_5_text:nth-of-type(2) {
+        text-align: justify;
+        top: 80%;
+      }
+
+      ul {
+        list-style-type: disc;
+        top: 50%;
+        left: 55%;
+        text-align: left;
+      }
+    }
+  }
+}

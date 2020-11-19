@@ -7,7 +7,7 @@ function About() {
     return (
         <>
         <div className="about_body_img">
-            <img style={{height: '550px', width: '500px'}} src="" alt=""></img>
+            <img style={{height: '550px', width: '500px'}} src="" alt="about_me_pciture"></img>
         </div>
         <div className="about_body_text">
             <h2>Why choose me?</h2>
