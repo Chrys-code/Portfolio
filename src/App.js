@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.scss';
-import "./Components/Services/ModalStyle.scss";
 import Navbar from './Components/Navbar/Navbar';
+import Modal from './Components/Modal/Modal';
 import Hero from './Components/Hero/Hero';
 import Presentational from './Components/Presentational';
 import About from "./Components/About/About";
@@ -14,7 +14,7 @@ import Blog from "./Components/Blog/Blog";
 //import Contact from "./Components/Contact/Contact";
 
 
-
+// Webapp theme requires further development (styled components + theme.provider)
 const backgroundDark = {
   background: "#161d26",
 }
@@ -99,7 +99,7 @@ function App() {
           "Profiling application performance.",
           "Using appropriate database types.",
           "Implementing business logic on server-side.",
-          "Recommendation of relieble hosts or hosting with us.",
+          "Recommendation of reliable hosts or hosting with us.",
 
         ],
     }, {
@@ -130,104 +130,20 @@ function App() {
   const modalHandler = (e, item) => {
       e.preventDefault();
 
-      if (e.target.className === "modal_wrapper") {
-        setIsOpen(!isOpen);
+      if (e.target.className !== "modal_wrapper") {
+        setIndex(item.id); // get tile info
+
+          setIsOpen(!isOpen); // Display modal
+
       } else {
-        setIsOpen(!isOpen);
-        setIndex(item.id);
+          setIsOpen(!isOpen); // Close modal
       }
     }
   
-
-  const Modal = (props) => {
-
-      const {index, tiles, modalInfo} = props;
-
-      return (
-      <div className="modal_wrapper" onClick={(e) => modalHandler(e)}>
-          <div className="modal">
-            <img className="modal_icon" src={tiles[index].icon} alt={tiles[index].alt}/>
-            <h2>{tiles[index].title}</h2>
-            <p>{tiles[index].description}</p>
-
-            {index === 0 &&  <div className="modal_0_info">
-              <p className="modal_0_text" >{modalInfo[index].explanation}</p>
-              <p className="modal_0_text">{modalInfo[index].question}</p>
-              <ul>
-                {modalInfo[index].answer.map((ans, index) => {
-                  return (
-                <li className="modal_0_text_ans" key={index}>{ans}</li>
-                  )
-                })}
-              </ul>
-              
-              </div>           
-            }
-
-            {index === 1 && <div className="modal_1_info">
-              <p className="modal_1_text" >{modalInfo[index].explanation}</p>
-             </div>
-            }
-
-            {index === 2 && <div className="modal_2_info">
-            <p className="modal_2_text" >{modalInfo[index].explanation}</p>
-              <p className="modal_2_text">{modalInfo[index].question}</p>
-              <ul>
-                {modalInfo[index].answer.map((ans, index) => {
-                  return (
-                <li className="modal_2_text" key={index}>{ans}</li>
-                  )
-                })}
-              </ul>
-             </div>
-            }
-  
-  {index === 3 && <div className="modal_3_info">
-  <p className="modal_3_text" >{modalInfo[index].explanation}</p>
-  <p className="modal_3_text" >{modalInfo[index].answer}</p>
-             </div>
-            }
-
-
-{index === 4 && <div className="modal_4_info">
-  <p className="modal_4_text" >{modalInfo[index].explanation}</p>
-  <p className="modal_4_text" >{modalInfo[index].answer}</p>
-             </div>
-            }
-
-{index === 5 && <div className="modal_5_info">
-  <p className="modal_5_text" >{modalInfo[index].explanation}</p>
-  <ul>
-                {modalInfo[index].answer.map((ans, index) => {
-                  return (
-                <li className="modal_5_text" key={index}>{ans}</li>
-                  )
-                })}
-              </ul>
-
-              <p className="modal_5_text" >{modalInfo[index].example}</p>
-
-             </div>
-
-            }
-
-
-
-
-
-
-                  <img class="modal_img" src={tiles[index].background} alt="modal_background" />
-          </div>
-          </div>
-      )
-  }
-
-
-
   return (
     <div className="App" style={backgroundDark} >
       
-      {isOpen && <Modal index={index} modalInfo={modalInfo} tiles={tiles} />} 
+      {isOpen && <Modal index={index} modalInfo={modalInfo} tiles={tiles} modalHandler={modalHandler} />} 
 
       <Navbar  />
       <Hero  />

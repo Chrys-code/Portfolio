@@ -17,7 +17,6 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
 
     @include sm {
       flex-direction: column-reverse;
@@ -25,10 +24,7 @@ footer {
     }
 
     span {
-      position: absolute;
-      top: 50%;
-      left: 15px;
-      transform: translateY(-50%);
+      position: relative;
       letter-spacing: 5px;
       font-weight: 500;
       color: #95a5c6;
@@ -41,28 +37,34 @@ footer {
       }
     }
 
-    a {
-      padding: 10px;
-      @include sm {
-        padding: 5px;
-      }
+    .footer_links {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
 
-      img {
-        top: 50%;
-        padding: 0px 20px;
+      a {
+        padding: 10px;
         @include sm {
-          padding: 0px 10px;
-          height: 36px;
-          width: 36px;
+          padding: 5px;
         }
-        @include xsm {
-          padding: 0px 5px;
-          height: 32px;
-          width: 32px;
+
+        img {
+          top: 50%;
+          padding: 0px 20px;
+          @include sm {
+            padding: 0px 10px;
+            height: 36px;
+            width: 36px;
+          }
+          @include xsm {
+            padding: 0px 5px;
+            height: 32px;
+            width: 32px;
+          }
         }
-      }
-      img:hover {
-        cursor: pointer;
+        img:hover {
+          cursor: pointer;
+        }
       }
     }
   }
