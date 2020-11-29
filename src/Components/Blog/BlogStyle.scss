@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 
     @include sm {
       flex-direction: column;
@@ -27,7 +26,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-
       @include sm {
         width: 80%;
       }
@@ -72,6 +70,7 @@
         flex-direction: column;
         padding-left: 0px;
         margin-top: 10px;
+        max-width: 90%;
 
         a {
           @include text($pTextColor);

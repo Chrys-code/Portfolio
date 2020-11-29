@@ -16,22 +16,26 @@ const headers= [
 
 const js_react = [
     {
-        title: "Sample",  
-        content: "",      
+        title: "JavaScript Basics: Hello World & Data types",  
+        link: "https://krisztiannagyblog.herokuapp.com/javascript/javascript-JavaScript_Basics",      
+    }, {
+        title: "React Fundamentals: Functional vs Class-Components",  
+        link: "https://krisztiannagyblog.herokuapp.com/react/react-Functional_vs_Class-Components",      
     }, 
+
 ]
 
 const events = [
     {
         title: "Sample",  
-        content: "",      
+        link: "",      
     },
 ]
 
 const updates = [
     {
         title: "Sample",  
-        content: "",      
+        link: "",      
     },
 ]
 
@@ -48,7 +52,7 @@ function Section(props) {
 
             <ul className="blog_body_card_list">
                 {list.map((item, i) => { return (
-                    <li key={i}><a href="#" style={hoverStyle}>{item.title}</a></li>
+                    <li key={i}><a href={item.link} target="_blank" rel="noopener noreferrer" style={hoverStyle}>{item.title}</a></li>
                 )})}
             </ul>
         </div>

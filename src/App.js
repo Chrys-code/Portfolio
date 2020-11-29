@@ -153,14 +153,14 @@ function App() {
       <Presentational section={'services'} title={"Services"} subTitle={"Wat can we provide you?"} bg={false}>
         <Services tiles={tiles} modalHandler={modalHandler}  />
       </Presentational>
-      <Presentational section={'resume'} title={"Resume"} subTitle={"My formal bio details."} bg={true}>
+      <Presentational section={'resume'} title={"Resume"} subTitle={"My formal bio details"} bg={true}>
         <Resume />
       </Presentational>
-      <Presentational section={'portfolio'} title={"Portfolio"} subTitle={"Check out the lastest works."} bg={false}>
+      <Presentational section={'portfolio'} title={"Portfolio"} subTitle={"Check out the lastest works"} bg={false}>
         <Portfolio />
         <PortfolioMobile />
       </Presentational>
-      <Presentational section={'blog'} title={"Blog"} subTitle={"Some arcticles that raised my interest."} bg={true}>
+      <Presentational section={'blog'} title={"Blog"} subTitle={"Some topics I have written"} bg={true}>
         <Blog />
       </Presentational>
       <Footer />
