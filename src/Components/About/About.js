@@ -10,7 +10,7 @@ function About() {
             <img style={{height: '550px', width: '500px'}} src="" alt=""></img>
         </div>
         <div className="about_body_text">
-            <h2>Why choose me?</h2>
+            <h2>Why chose me?</h2>
             <p>I am a third-year Student at Southampton Solent University, learning Digital Design & Web Development. During the course I gained knowledge in different fields on both sides of Human Digital Interaction and End-To-End Web Development. I devote more time to programming than just attend the Unviersity. I learn something new every day.</p>
             <p>In the following fields: </p>
             <ul>

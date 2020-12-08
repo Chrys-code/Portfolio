@@ -3,13 +3,13 @@ import "./BlogStyle.scss";
 
 const headers= [
     {
-        title: "Js & React",
+        title: "JavaScript & Frameworks",
     },
     {
-        title: "Events",
+        title: "Tools",
     },
     {
-        title: "Updates",
+        title: "Events & Updates",
     },
 
 ]
@@ -21,7 +21,10 @@ const js_react = [
     }, {
         title: "React Fundamentals: Functional vs Class-Components",  
         link: "https://krisztiannagyblog.herokuapp.com/react/react-Functional_vs_Class-Components",      
-    }, 
+    }, {
+        title: "JavaScript Basics: Variables",  
+        link: "https://krisztiannagyblog.herokuapp.com/javascript/javascript-JavaScript_Variables",      
+    }
 
 ]
 

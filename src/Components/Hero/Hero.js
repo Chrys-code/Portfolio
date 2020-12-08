@@ -22,7 +22,7 @@ function Hero() {
                 <div className="hero_intro_info">
                     <h2>Hello, I'm  <span>Krisztian Nagy</span></h2>
                     <h1>Web Developer</h1>
-                    <p>Freelancer & Full-Stack Web Developer</p>
+                    <p>Freelancer & Front-End Web Developer</p>
                 </div>
                 <div className="hero_intro_buttons">
                     <ScrollIntoView selector="footer">

@@ -16,6 +16,7 @@
 
     @include sm {
       flex-direction: column;
+      align-items: center;
     }
 
     .blog_body_card {
@@ -66,8 +67,8 @@
       .blog_body_card_list {
         display: flex;
         justify-content: center;
-        align-items: flex-start;
         flex-direction: column;
+        align-items: center;
         padding-left: 0px;
         margin-top: 10px;
         max-width: 90%;
