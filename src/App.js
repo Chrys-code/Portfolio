@@ -160,7 +160,7 @@ function App() {
         <Portfolio />
         <PortfolioMobile />
       </Presentational>
-      <Presentational section={'blog'} title={"Blog"} subTitle={"Some topics I have written"} bg={true}>
+      <Presentational section={'blog'} title={"Blog"} subTitle={"Latest topics I have written"} bg={true}>
         <Blog />
       </Presentational>
       <Footer />

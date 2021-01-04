@@ -3,35 +3,40 @@ import "./BlogStyle.scss";
 
 const headers= [
     {
-        title: "JavaScript & Frameworks",
+        title: "JavaScript",
     },
     {
-        title: "Tools",
+        title: "React",
     },
     {
-        title: "Events & Updates",
+        title: "Updates",
     },
 
 ]
 
-const js_react = [
+const js = [
     {
-        title: "JavaScript Basics: Hello World & Data types",  
-        link: "https://krisztiannagyblog.herokuapp.com/javascript/javascript-JavaScript_Basics",      
+        title: "Async-Await, Promises and Callback",
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Async_Await_Promise_&_Callback"
+    },{
+        title: "Fetch API",
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-FetchAPI"
+    },{
+        title: "JavaSrcipt Basics: To-Do-List",  
+        link: "https://krisztiannagyblog.herokuapp.com/javascript/javascript-JavaScript_todolist",      
+    },{
+        title: "JavaScript Basics: Manipulating DOM",
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Manipulating-DOM"
     }, {
-        title: "React Fundamentals: Functional vs Class-Components",  
-        link: "https://krisztiannagyblog.herokuapp.com/react/react-Functional_vs_Class-Components",      
-    }, {
-        title: "JavaScript Basics: Variables",  
-        link: "https://krisztiannagyblog.herokuapp.com/javascript/javascript-JavaScript_Variables",      
+        title: "JavaScipt Basics: DOM Access",
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Manipulating-DOM"
     }
-
 ]
 
-const events = [
+const react = [
     {
-        title: "Sample",  
-        link: "",      
+        title: "Functional vs Class-Component",  
+        link: "https://krisztiannagyblog.herokuapp.com/reacttopics/react-Functional_vs_Class-Components",      
     },
 ]
 
@@ -66,8 +71,8 @@ function Section(props) {
 function Blog() {
     return (
         <div className="blog_cards">
-        <Section title={headers[0].title} list={js_react} headerStyle={{background: '#FF6331'}} hoverStyle={{'--hover': '#FF6331'}} />
-        <Section title={headers[1].title} list={events} headerStyle={{background:'#803AFB'}}  hoverStyle={{'--hover': '#803AFB'}}/>
+        <Section title={headers[0].title} list={js} headerStyle={{background: '#FF6331'}} hoverStyle={{'--hover': '#FF6331'}} />
+        <Section title={headers[1].title} list={react} headerStyle={{background:'#803AFB'}}  hoverStyle={{'--hover': '#803AFB'}}/>
         <Section title={headers[2].title} list={updates} headerStyle={{background:'#F5276C'}}  hoverStyle={{'--hover':'#F5276C'}}/>
         </div>
     )
