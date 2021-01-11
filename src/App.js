@@ -147,7 +147,7 @@ function App() {
 
       <Navbar  />
       <Hero  />
-      <Presentational section={'about'} title={"About Us"} subTitle={"Why choose me?"} bg={false} >
+      <Presentational section={'about'} title={"About Us"} subTitle={"Why chose me?"} bg={false} >
         <About/>
       </Presentational>
       <Presentational section={'services'} title={"Services"} subTitle={"Wat can we provide you?"} bg={false}>

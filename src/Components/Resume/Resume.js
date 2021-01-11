@@ -15,23 +15,33 @@ const EducationList = [{
 ]
 
 const SkillList = [{
-    Title:"Web Development" , SubTitle: "Web Technologies I use reguralry to achieve contemporary application design", description: "To create fast and SEO friendly websites I use React and to achieve accessibility I use SASS and Bootstrap. Despite the variety of development tools I maintain strong grounding in HTML5, CSS3 and JavaScript." , year: "" ,
+    Title:"Web Development" , SubTitle: "Web Technologies I use to achieve contemporary application design", description: " HTML, CSS, JavaScript, React, SASS, Next, Node & Express (for basic server communications), Firebase, MongoDB", year: "" ,
     },{
-    Title:"Development Tools" , SubTitle: "Tools I learned to use during my projects", description: "During developments I learned to use tools such as: Terminal, Webpack, SASS, Bootstrap, and Git." , year: "" ,
+    Title:"Development Tools" , SubTitle: "Tools I use to develop applications", description: "Node Package Manager, Terminal, Webpack, Redux and GitHub." , year: "" ,
     },{
-    Title:"Digitla Design" , SubTitle: "Technologies I use reguralry to achieve contemporary design", description: "None of the websites and applications are appealing without an outstanding design. AdobeXD, Figma and PhotoShop are unavoidable design tools to maintain enjoyment in our online appearance and increase customer retention." , year: "" ,
+    Title:"Digitla Design" , SubTitle: "Technologies I use reguralry to achieve contemporary design", description: "AdobeXD, Figma and PhotoShop are unavoidable design tools to maintain enjoyment in our online appearance and increase customer retention." , year: "" ,
     },{
-        Title:"Web Technologies I learn" , SubTitle: "Web technologies I learn & practice", description: "GraphQL & Serverless Applications, Server Side Rendering, Static Site Generators such as Next.js." , year: "" ,
+    Title:"Web Technologies I learn" , SubTitle: "Web technologies I learn & practice", description: "GraphQL & Serverless Applications, Server Side Rendering, Static Site Generators such as Next." , year: "" ,
     },
 ]
 
 const WorkList = [
+    {
+        Title: "UniMeetings", SubTitle: "UniMeetings Web Application", description: " An application that helps schools identify meetings and connections between students in case a student signs illness due to the current pandemic. By allowing students per registered school to create official meetings and update their status if participated on any event outside the school.", year: "01-2021"
+    },{
+        Title: "Portfolio Site", SubTitle: "My portfolio site", description: " This is the protfolio site you are watching right now. The site has a separated media and font stlye library and the implementation of a pixel perfect interface based on Tauhid Hasan grapihcs designer's Interface Design. Moreover, the website features different we applications such as this viewer library and 3D tile-based portfolio section.", year: "11-2020"
+    },{
+        Title: "MyShoes", SubTitle: "MyShoes E-commerce website,", description: " An E-commerce website with all the functionalities that is required for shopping such as: display items from database, sorting items, modals to spectate item details, view independent shopping cart, cart functionalities, implementing local-storage, managing state of the order with Redux, order feedback and save unique orders. ", year: "08-2020"
+    },
+
 ]
 
 const HobbyList = [{
-    Title:"Information Technology" , SubTitle: "From PCs to Sound Technology", description: "I am interested all the way in personal electronics." , year: "" ,
+    Title:"Information Technology" , SubTitle: "From Personal Computers to Sound Technology", description: "I am interested all the way in personal electronics." , year: "" ,
     },{
-    Title:"Programming" , SubTitle: "Web Development & Problem Solving", description: "University is not the only activity I devote to learn Web Development. I consntantly solving tasks on CodeWars and practicing JavaScript by creating projects, following JAM-stack & PWAs." , year: "" ,
+    Title:"Programming" , SubTitle: "Web Development & Problem Solving", description: "University is not the only activity I devote to learn Web Development. I consntantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs." , year: "" ,
+    },{
+    Title:"Blog" , SubTitle: "My open dev blog", description: "I dedicated myself to create an open 'handbook'-like blog, where I explain and introduce aspects of web technologies and their usability " , year: "" ,
     },{
     Title:"Sport" , SubTitle: "I love swimming", description: "However I love swimming, at the moment I do not have the opportunity to excercise." , year: "" ,
     },

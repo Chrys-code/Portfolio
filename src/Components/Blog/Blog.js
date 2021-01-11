@@ -13,24 +13,26 @@ const headers= [
     },
 
 ]
-
 const js = [
     {
+        title: "Memoization",
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Memoization"
+    },{
+        title: "IIFE",
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-IIFE"
+    },{
+        title: "Module Pattern",  
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Module_Pattern",      
+    },{
+        title: "Modules, Submodules & Aggregation",  
+        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Modules_and_Submodules",      
+    },{
         title: "Async-Await, Promises and Callback",
         link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Async_Await_Promise_&_Callback"
     },{
         title: "Fetch API",
         link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-FetchAPI"
-    },{
-        title: "JavaSrcipt Basics: To-Do-List",  
-        link: "https://krisztiannagyblog.herokuapp.com/javascript/javascript-JavaScript_todolist",      
-    },{
-        title: "JavaScript Basics: Manipulating DOM",
-        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Manipulating-DOM"
-    }, {
-        title: "JavaScipt Basics: DOM Access",
-        link: "https://krisztiannagyblog.herokuapp.com/jstopics/javascript-Manipulating-DOM"
-    }
+    },
 ]
 
 const react = [
