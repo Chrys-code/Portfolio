@@ -19,7 +19,7 @@ const SkillList = [{
 }, {
     Title: "Development Tools", SubTitle: "Tools I use to develop applications", description: "Node Package Manager, Terminal, Webpack, Redux and GitHub.", year: "",
 }, {
-    Title: "Digitla Design", SubTitle: "Technologies I use regularly to achieve contemporary design", description: "AdobeXD, Figma and PhotoShop are unavoidable design tools to maintain enjoyment in our online appearance and increase customer retention.", year: "",
+    Title: "Digital Design", SubTitle: "Technologies I use regularly to achieve contemporary design", description: "AdobeXD, Figma and PhotoShop are unavoidable design tools to maintain enjoyment in our online appearance and increase customer retention.", year: "",
 }, {
     Title: "Web Technologies I learn", SubTitle: "Web technologies I learn & practice", description: "GraphQL & Serverless Applications, Server Side Rendering, Static Site Generators such as Next.", year: "",
 },
@@ -39,13 +39,16 @@ const WorkList = [
 const HobbyList = [{
     Title: "Information Technology", SubTitle: "From Personal Computers to Sound Technology", description: "I am interested all the way in personal electronics.", year: "",
 }, {
-    Title: "Programming", SubTitle: "Web Development & Problem Solving", description: "University is not the only activity I devote to learn Web Development. I constantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs.", year: "",
+    Title: "Programming", SubTitle: "Web Development & Problem Solving", description: "University is not the only activity I devote to learning Web Development. I constantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs.", year: "",
 }, {
     Title: "Blog", SubTitle: "My open dev blog", description: "I dedicated myself to create an open 'handbook'-like blog, where I explain and introduce aspects of web technologies and their usability ", year: "",
 }, {
     Title: "Sport", SubTitle: "I love swimming", description: "However I love swimming, at the moment I do not have the opportunity to exercise.", year: "",
 },
 ]
+
+
+
 
 
 
