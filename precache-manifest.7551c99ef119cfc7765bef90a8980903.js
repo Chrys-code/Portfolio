@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "979508a3701fd2a7d0fd4dfde71bc5f3",
+    "revision": "512d32eeb9d56c6379f51f11f94d508b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d60900a4de358809ab20",
+    "revision": "0ee0abdfcf751e0a15a8",
     "url": "/portfolio/static/css/main.3c656b7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.3bfec48f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d60900a4de358809ab20",
-    "url": "/portfolio/static/js/main.d82ba038.chunk.js"
+    "revision": "0ee0abdfcf751e0a15a8",
+    "url": "/portfolio/static/js/main.1ce1f20d.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Ecommerce_1.71c26df6.png"
   },
   {
-    "revision": "be6dbef8ac5e3c9929168f83aa9cb3c9",
-    "url": "/portfolio/static/media/Facebook_1.be6dbef8.png"
+    "revision": "d4b677cb76f51bf1ef8e92a8bf773773",
+    "url": "/portfolio/static/media/Facebook_1.d4b677cb.png"
   },
   {
     "revision": "366225c6d25bcdc3ac15e8a31898d710",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a189dad8fb2a41e10a502b5b9b651d61",
     "url": "/portfolio/static/media/Interface_Design_Icon.a189dad8.svg"
-  },
-  {
-    "revision": "e2910d59ec1978c1e4b3dda19288a06b",
-    "url": "/portfolio/static/media/Linda_1.e2910d59.png"
   },
   {
     "revision": "667c2ef33e73500942cddcc3736b2c85",
@@ -70,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "54cfaf807f0acf18a443827c824b8dc2",
     "url": "/portfolio/static/media/ShapeDark.54cfaf80.svg"
+  },
+  {
+    "revision": "80cb80110649cf14533edad1eda9d959",
+    "url": "/portfolio/static/media/Trello_1.80cb8011.png"
   },
   {
     "revision": "292c9f85f52841f73dd21af0db0bf20b",

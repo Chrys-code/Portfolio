@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3c656b7e.chunk.css",
-    "main.js": "/portfolio/static/js/main.d82ba038.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d82ba038.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1ce1f20d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1ce1f20d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.3bfec48f.chunk.js": "/portfolio/static/js/2.3bfec48f.chunk.js",
     "static/js/2.3bfec48f.chunk.js.map": "/portfolio/static/js/2.3bfec48f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3f24c1cdd9fb29129b7d88c7490330ac.js": "/portfolio/precache-manifest.3f24c1cdd9fb29129b7d88c7490330ac.js",
+    "precache-manifest.7551c99ef119cfc7765bef90a8980903.js": "/portfolio/precache-manifest.7551c99ef119cfc7765bef90a8980903.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.3c656b7e.chunk.css.map": "/portfolio/static/css/main.3c656b7e.chunk.css.map",
     "static/js/2.3bfec48f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3bfec48f.chunk.js.LICENSE.txt",
     "static/media/Ecommerce_1.png": "/portfolio/static/media/Ecommerce_1.71c26df6.png",
-    "static/media/Facebook_1.png": "/portfolio/static/media/Facebook_1.be6dbef8.png",
+    "static/media/Facebook_1.png": "/portfolio/static/media/Facebook_1.d4b677cb.png",
     "static/media/Interface_Design_Background.svg": "/portfolio/static/media/Interface_Design_Background.366225c6.svg",
     "static/media/Interface_Design_Icon.svg": "/portfolio/static/media/Interface_Design_Icon.a189dad8.svg",
-    "static/media/Linda_1.png": "/portfolio/static/media/Linda_1.e2910d59.png",
     "static/media/Motion_Graphic_Background.svg": "/portfolio/static/media/Motion_Graphic_Background.667c2ef3.svg",
     "static/media/Motion_Graphic_Icon.svg": "/portfolio/static/media/Motion_Graphic_Icon.8616744e.svg",
     "static/media/Netflix_1.png": "/portfolio/static/media/Netflix_1.02adc586.png",
@@ -24,6 +23,7 @@
     "static/media/Seo_Optimize_Background.svg": "/portfolio/static/media/Seo_Optimize_Background.244a6943.svg",
     "static/media/Seo_Optimize_Icon.svg": "/portfolio/static/media/Seo_Optimize_Icon.e0d2d61c.svg",
     "static/media/ShapeDark.svg": "/portfolio/static/media/ShapeDark.54cfaf80.svg",
+    "static/media/Trello_1.png": "/portfolio/static/media/Trello_1.80cb8011.png",
     "static/media/UX_Design_Background.svg": "/portfolio/static/media/UX_Design_Background.292c9f85.svg",
     "static/media/UX_Design_Icon.svg": "/portfolio/static/media/UX_Design_Icon.3b92ac9d.svg",
     "static/media/Web_Design_Background.svg": "/portfolio/static/media/Web_Design_Background.778c93c1.svg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.3bfec48f.chunk.js",
     "static/css/main.3c656b7e.chunk.css",
-    "static/js/main.d82ba038.chunk.js"
+    "static/js/main.1ce1f20d.chunk.js"
   ]
 }
