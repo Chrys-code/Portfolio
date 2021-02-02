@@ -2,12 +2,15 @@ import React from 'react'
 import "./AboutStyle.scss"
 import ScrollIntoView from 'react-scroll-into-view';
 
+/*
+* about body img
+*<img style={{ height: '550px', width: '500px' }} src="" alt=""></img>
+*/
 
 function About() {
     return (
         <>
             <div className="about_body_img">
-                <img style={{ height: '550px', width: '500px' }} src="" alt=""></img>
             </div>
             <div className="about_body_text">
                 <h2>Why chose me?</h2>
