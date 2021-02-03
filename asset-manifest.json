@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3c656b7e.chunk.css",
-    "main.js": "/portfolio/static/js/main.1ce1f20d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1ce1f20d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e75f8665.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e75f8665.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.3bfec48f.chunk.js": "/portfolio/static/js/2.3bfec48f.chunk.js",
     "static/js/2.3bfec48f.chunk.js.map": "/portfolio/static/js/2.3bfec48f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7551c99ef119cfc7765bef90a8980903.js": "/portfolio/precache-manifest.7551c99ef119cfc7765bef90a8980903.js",
+    "precache-manifest.b1fe58f13bc93cbbee0da7c22163894f.js": "/portfolio/precache-manifest.b1fe58f13bc93cbbee0da7c22163894f.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.3c656b7e.chunk.css.map": "/portfolio/static/css/main.3c656b7e.chunk.css.map",
     "static/js/2.3bfec48f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3bfec48f.chunk.js.LICENSE.txt",
     "static/media/Ecommerce_1.png": "/portfolio/static/media/Ecommerce_1.71c26df6.png",
-    "static/media/Facebook_1.png": "/portfolio/static/media/Facebook_1.d4b677cb.png",
     "static/media/Interface_Design_Background.svg": "/portfolio/static/media/Interface_Design_Background.366225c6.svg",
     "static/media/Interface_Design_Icon.svg": "/portfolio/static/media/Interface_Design_Icon.a189dad8.svg",
     "static/media/Motion_Graphic_Background.svg": "/portfolio/static/media/Motion_Graphic_Background.667c2ef3.svg",
@@ -26,6 +25,7 @@
     "static/media/Trello_1.png": "/portfolio/static/media/Trello_1.80cb8011.png",
     "static/media/UX_Design_Background.svg": "/portfolio/static/media/UX_Design_Background.292c9f85.svg",
     "static/media/UX_Design_Icon.svg": "/portfolio/static/media/UX_Design_Icon.3b92ac9d.svg",
+    "static/media/UniMeetings_1.png": "/portfolio/static/media/UniMeetings_1.a5d2b785.png",
     "static/media/Web_Design_Background.svg": "/portfolio/static/media/Web_Design_Background.778c93c1.svg",
     "static/media/Web_Design_Icon.svg": "/portfolio/static/media/Web_Design_Icon.ef23c0a8.svg",
     "static/media/Web_Development_Background.svg": "/portfolio/static/media/Web_Development_Background.5ee93d37.svg",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.3bfec48f.chunk.js",
     "static/css/main.3c656b7e.chunk.css",
-    "static/js/main.1ce1f20d.chunk.js"
+    "static/js/main.e75f8665.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "512d32eeb9d56c6379f51f11f94d508b",
+    "revision": "de93d92d7e5d93f7c224c6b57423a686",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0ee0abdfcf751e0a15a8",
+    "revision": "68166e12a0baf4e2a63a",
     "url": "/portfolio/static/css/main.3c656b7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.3bfec48f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ee0abdfcf751e0a15a8",
-    "url": "/portfolio/static/js/main.1ce1f20d.chunk.js"
+    "revision": "68166e12a0baf4e2a63a",
+    "url": "/portfolio/static/js/main.e75f8665.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -26,10 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71c26df6450d68f85b23db5cf8ab3d98",
     "url": "/portfolio/static/media/Ecommerce_1.71c26df6.png"
-  },
-  {
-    "revision": "d4b677cb76f51bf1ef8e92a8bf773773",
-    "url": "/portfolio/static/media/Facebook_1.d4b677cb.png"
   },
   {
     "revision": "366225c6d25bcdc3ac15e8a31898d710",
@@ -78,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3b92ac9d80da4d454acf34101f2dd378",
     "url": "/portfolio/static/media/UX_Design_Icon.3b92ac9d.svg"
+  },
+  {
+    "revision": "a5d2b785332d79703faaaa092ff4f97d",
+    "url": "/portfolio/static/media/UniMeetings_1.a5d2b785.png"
   },
   {
     "revision": "778c93c10deaa087d192721bd4d2f314",
