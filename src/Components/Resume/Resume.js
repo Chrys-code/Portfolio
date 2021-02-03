@@ -27,23 +27,26 @@ const SkillList = [{
 
 const WorkList = [
     {
-        Title: "UniMeetings", SubTitle: "UniMeetings Web Application", description: " An application that helps schools identify meetings and connections between students in case a student signs illness due to the current pandemic. By allowing students per registered school to create official meetings and update their status if participated on any event outside the school.", year: "01-2021"
+        Title: "UniMeetings", SubTitle: "UniMeetings Web Application", description: " An application that helps schools identify meetings and connections between students in case a student signs illness due to the current pandemic by allowing students per registered school to create official meetings and update their status if participated on any event outside the school. A free account to log in: Mina Bowers - minapass.", year: "01-2021"
+    }, {
+        Title: "MyShoes", SubTitle: "MyShoes E-commerce website,", description: " An E-commerce website with all the functionalities that is required for shopping such as: display items from database, sorting items, modals to spectate item details, view independent shopping cart, cart functionalities, implementing local-storage, managing state of the order with Redux, order feedback and save unique orders. ", year: "08-2020"
     }, {
         Title: "Portfolio Site", SubTitle: "My portfolio site", description: " This is the portfolio site you are watching right now. The site has a separated media and font style library and the implementation of a pixel perfect interface based on Tauhid Hasan graphics designer's Interface Design. Moreover, the website features different web applications such as this viewer library and 3D tile-based portfolio section.", year: "11-2020"
     }, {
-        Title: "MyShoes", SubTitle: "MyShoes E-commerce website,", description: " An E-commerce website with all the functionalities that is required for shopping such as: display items from database, sorting items, modals to spectate item details, view independent shopping cart, cart functionalities, implementing local-storage, managing state of the order with Redux, order feedback and save unique orders. ", year: "08-2020"
+        Title: "Drag&Drop List", SubTitle: "Trello-Clone", description: " I am practicing the base stack of web development (HTML5-CSS3-JavaScript) constantly. Trello-Clone is the first step to deepen my knowledge within the stack to achieve an advanced level of programming resulting in clear, maintinable, scalable, and performant applications. ", year: "11-2020"
     },
-
 ]
 
 const HobbyList = [{
-    Title: "Information Technology", SubTitle: "From Personal Computers to Sound Technology", description: "I am interested all the way in personal electronics.", year: "",
+    Title: "Information Technology", SubTitle: "From Personal Computers to Sound Technology", description: "I am interested all the way in personal electronics. Building my own PC, being updated about new products, specs etc...", year: "",
 }, {
-    Title: "Programming", SubTitle: "Web Development & Problem Solving", description: "University is not the only activity I devote to learning Web Development. I constantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs.", year: "",
+    Title: "Programming", SubTitle: "Web Development & Problem Solving", description: " University is not the only activity I devote to learning Web Development. I am constantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs. ", year: "",
 }, {
     Title: "Blog", SubTitle: "My open dev blog", description: "I dedicated myself to create an open 'handbook'-like blog, where I explain and introduce aspects of web technologies and their usability ", year: "",
 }, {
-    Title: "Sport", SubTitle: "I love swimming", description: "However I love swimming, at the moment I do not have the opportunity to exercise.", year: "",
+    Title: "Sport", SubTitle: "I love swimming", description: " However I love swimming, at the moment I do not have the opportunity to exercise. ", year: "",
+}, {
+    Title: "Gaming", SubTitle: "I like computer games", description: " Absolute favorite is strategy games, but also find joy in shooters(fps) and other genres such as MMOs. ", year: "",
 },
 ]
 

@@ -25,20 +25,18 @@ const projectList = [
         image: require("../../Assets/Images/Portfolio/Ecommerce_1.png"),
         link: "https://myshoes-ecommerce.herokuapp.com/#/",
     }, {
+        title: 'Web Application',
+        subtitle: 'UniMeetingsApp',
+        description: "Let your school know if you travel & Protect your friends",
+        image: require("../../Assets/Images/Portfolio/UniMeetings_1.png"),
+        link: "https://unimeetingsapp.herokuapp.com/",
+    }, {
         title: 'Trello',
         subtitle: 'Trello-Clone',
         description: "Vanilla JS Drag&Drop List",
         image: require("../../Assets/Images/Portfolio/Trello_1.png"),
         link: "https://chrys-code.github.io/Trello-Clone/",
-    }, {
-        title: 'Webiste Clone',
-        subtitle: 'Facebook',
-        description: "A Facebook clone",
-        image: require("../../Assets/Images/Portfolio/Facebook_1.png"),
-        link: "https://facebook-clone-5fe9e.web.app/",
     },
-
-
 ]
 
 

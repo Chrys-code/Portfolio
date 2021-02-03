@@ -7,23 +7,20 @@ import "./PortfolioStyle.scss";
 /////////////////////////
 
 const slides = [
-
   {
     title: 'Dev Portfolio',
     subtitle: 'Portfolio',
     description: 'My personal portfolio',
     image: require("../../Assets/Images/Portfolio/Portfolio_1.png"),
     link: "https://chrys-code.github.io/portfolio/",
-  },
-  {
+  }, {
     title: 'Website Clone',
     subtitle: 'Netflix',
     description: "A Netflix clone",
     image: require("../../Assets/Images/Portfolio/Netflix_1.png"),
     link: "https://chrys-code.github.io/Netflix-clone/",
 
-  },
-  {
+  }, {
     title: 'E-Commerce',
     subtitle: 'MyShoes',
     description: "Best partner for a long way",
@@ -31,18 +28,17 @@ const slides = [
     link: "https://myshoes-ecommerce.herokuapp.com/#/",
 
   }, {
+    title: 'Web Application',
+    subtitle: 'UniMeetingsApp',
+    description: "Let your school know if you travel & Protect your friends",
+    image: require("../../Assets/Images/Portfolio/UniMeetings_1.png"),
+    link: "https://unimeetingsapp.herokuapp.com/",
+  }, {
     title: 'Drag&Drop List',
     subtitle: 'MyList',
     description: "Vanilla JavaScript Trello-clone",
     image: require("../../Assets/Images/Portfolio/Trello_1.png"),
     link: "https://chrys-code.github.io/Trello-Clone/",
-  }, {
-    title: 'Webiste Clone',
-    subtitle: 'Facebook',
-    description: "A Facebook clone",
-    image: require("../../Assets/Images/Portfolio/Facebook_1.png"),
-    link: "https://facebook-clone-5fe9e.web.app/",
-
   },
 ]
 

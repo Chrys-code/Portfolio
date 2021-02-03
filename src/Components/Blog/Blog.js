@@ -44,8 +44,11 @@ const react = [
 
 const updates = [
     {
-        title: "Sample",
-        link: "",
+        title: "The Beginning",
+        link: "https://krisztiannagyblog.herokuapp.com/about/about-The_Beginning",
+    }, {
+        title: "The origin story...",
+        link: "https://krisztiannagyblog.herokuapp.com/about/about-The_Originstory",
     },
 ]
 
