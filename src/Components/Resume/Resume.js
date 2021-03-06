@@ -1,31 +1,35 @@
 import React from 'react'
 import { Component } from 'react'
 import "./ResumeStyle.scss";
-
 import Library from "./ResumeAppLibrary/ResumeAppLibrary";
 import Viewport from "./ResumeAppViewport/ResumeAppViewport";
 
 const EducationList = [{
     Title: "Solent University", SubTitle: "Southampton, England", description: "3 Years Course. BSc(Hons) Degree within Web Development & Digital Design", year: "2018-2021",
 }, {
-    Title: "Tancsics Mihaly Secondary School", SubTitle: "Kaposvar, Hungary", description: "Secondary Grammar School, Arany Janos Talentcare Program. 5 Years Course awarded with Diploma, A-level in general knowledge finished with Biology & English language.", year: "2013-2018",
+    Title: "Tancsics Mihaly Secondary School", SubTitle: "Kaposvar, Hungary", description: "Secondary Grammar School, Arany Janos Talentcare Program. 5 Years Course awarded with A-level equivalent finished with Biology & English language.", year: "2013-2018",
 }, {
     Title: "Hunyadi Janos Elementary School", SubTitle: "Kaposmero, Hungary", description: "Elementary School 8 Years Course. Pass to Tancsics Mihaly Secondary School", year: "2005-2013",
 },
 ]
 
 const SkillList = [{
-    Title: "Web Development", SubTitle: "Web Technologies I use to achieve contemporary application design", description: " HTML, CSS, JavaScript, React, SASS, Next, Node & Express (for basic server communications), Firebase, MongoDB", year: "",
+    Title: "Web Development", SubTitle: "Web Technologies I use", description: " HTML, CSS, JavaScript, React, SASS, Next, Redux, Node, Express, PHP, Firebase, MongoDB, MySQL, Apollo-GraphQL, GraphQL", year: "",
 }, {
-    Title: "Development Tools", SubTitle: "Tools I use to develop applications", description: "Node Package Manager, Terminal, Webpack, Redux and GitHub.", year: "",
+    Title: "Design concepts", SubTitle: "Familiar with methodologies, sub-methods and design patterns", description: "Software Development Life Cycle (SDLC), Design Thinking, Design Sprint, Agile development, Waterfall development, Microservices & Monolithic Architectural Design, MVC & MVVM pattern, Observer/pub-sub pattern,  ", year: "",
 }, {
-    Title: "Digital Design", SubTitle: "Technologies I use regularly to achieve contemporary design", description: "AdobeXD, Figma and PhotoShop are unavoidable design tools to maintain enjoyment in our online appearance and increase customer retention.", year: "",
+    Title: "Development Tools", SubTitle: "Tools I use to support development", description: "Terminal, Node Package Manager, Webpack, GitHub.", year: "",
 }, {
-    Title: "Web Technologies I learn", SubTitle: "Web technologies I learn & practice", description: "GraphQL & Serverless Applications, Server Side Rendering, Static Site Generators such as Next.", year: "",
+    Title: "Digital Design", SubTitle: "Technologies I use regularly to achieve contemporary design", description: "AdobeXD, Figma, and PhotoShop", year: "",
+}, {
+    Title: "Web Technologies I learn", SubTitle: "Web technologies I currently learn & practice", description: "Currently learning Unit, Integration and E2E testing with Jest library", year: "",
 },
 ]
 
 const WorkList = [
+    {
+        Title: "Volunteer", SubTitle: "Currently particiapting in a project", description: "Currently helping a project with delivering a Development Plan, Educating co-workers with methodologies to be used and providing the team information about the methods in details from step to step. Moreover, I also participate in the development as the part of the team.", year: "Current"
+    },
     {
         Title: "UniMeetings", SubTitle: "UniMeetings Web Application", description: " An application that helps schools identify meetings and connections between students in case a student signs illness due to the current pandemic by allowing students per registered school to create official meetings and update their status if participated on any event outside the school. A free account to log in: Mina Bowers - minapass.", year: "01-2021"
     }, {
@@ -37,17 +41,18 @@ const WorkList = [
     },
 ]
 
-const HobbyList = [{
-    Title: "Information Technology", SubTitle: "From Personal Computers to Sound Technology", description: "I am interested all the way in personal electronics. Building my own PC, being updated about new products, specs etc...", year: "",
-}, {
-    Title: "Programming", SubTitle: "Web Development & Problem Solving", description: " University is not the only activity I devote to learning Web Development. I am constantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs. ", year: "",
-}, {
-    Title: "Blog", SubTitle: "My open dev blog", description: "I dedicated myself to create an open 'handbook'-like blog, where I explain and introduce aspects of web technologies and their usability ", year: "",
-}, {
-    Title: "Sport", SubTitle: "I love swimming", description: " However I love swimming, at the moment I do not have the opportunity to exercise. ", year: "",
-}, {
-    Title: "Gaming", SubTitle: "I like computer games", description: " Absolute favorite is strategy games, but also find joy in shooters(fps) and other genres such as MMOs. ", year: "",
-},
+const HobbyList = [
+    {
+        Title: "Information Technology", SubTitle: "From Personal Computers to Sound Technology", description: "I am interested all the way in personal electronics. Building my own PC, being updated about new products, specs etc...", year: "",
+    }, {
+        Title: "Programming", SubTitle: "Web Development & Problem Solving", description: " University is not the only activity I devote to learning Web Development. I am constantly solving tasks on Stack Overflow and practicing JavaScript by creating projects, following JAM-stack & PWAs. ", year: "",
+    }, {
+        Title: "Blog", SubTitle: "My open dev blog", description: "I dedicated myself to create an open 'handbook'-like blog, where I explain and introduce aspects of web technologies and their usability ", year: "",
+    }, {
+        Title: "Sport", SubTitle: "I love swimming", description: " However I love swimming, at the moment I do not have the opportunity to exercise. ", year: "",
+    }, {
+        Title: "Gaming", SubTitle: "I like computer games", description: " Absolute favorite is strategy games, but also find joy in shooters(fps) and other genres such as MMOs. ", year: "",
+    },
 ]
 
 

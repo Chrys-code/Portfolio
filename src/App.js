@@ -33,32 +33,32 @@ function App() {
       icon: require("./Assets/Images/Services/Web_Design_Icon.svg"),
       alt: "web design icon",
       title: "Web Design",
-      description: "Project discovery, ideation and information architecture creation.",
+      description: "Project discovery and planning",
       background: require("./Assets/Images/Services/Web_Design_Background.svg"),
     }, {
       id: 1,
-      className: "tile_interface_design",
-      icon: require("./Assets/Images/Services/Interface_Design_Icon.svg"),
-      alt: "interface design icon",
-      title: "Interface Design",
-      description: "Pixel perfect Interfaces on both Personal Computers and Mobile Phones.",
-      background: require("./Assets/Images/Services/Interface_Design_Background.svg"),
-    }, {
-      id: 2,
-      className: "tile_web_development",
-      icon: require("./Assets/Images/Services/Web_Development_Icon.svg"),
-      alt: "web development icon",
-      title: "Web Development",
-      description: "Project discovery, ideation and information architecture creation.",
-      background: require("./Assets/Images/Services/Web_Development_Background.svg"),
-    }, {
-      id: 3,
       className: "tile_ux_design",
       icon: require("./Assets/Images/Services/UX_Design_Icon.svg"),
       alt: "ux design icon",
       title: "UX Design",
-      description: "User Experience Design following Design Principles via Adobe xD & Figma.",
+      description: "User Experience Design to increase satisfaction",
       background: require("./Assets/Images/Services/UX_Design_Background.svg"),
+    }, {
+      id: 2,
+      className: "tile_interface_design",
+      icon: require("./Assets/Images/Services/Interface_Design_Icon.svg"),
+      alt: "interface design icon",
+      title: "Interface Design",
+      description: "Pixel perfect Interfaces on any device.",
+      background: require("./Assets/Images/Services/Interface_Design_Background.svg"),
+    }, {
+      id: 3,
+      className: "tile_web_development",
+      icon: require("./Assets/Images/Services/Web_Development_Icon.svg"),
+      alt: "web development icon",
+      title: "Web Development",
+      description: "End-To-End Web Development",
+      background: require("./Assets/Images/Services/Web_Development_Background.svg"),
     }, {
       id: 4,
       className: "tile_motion_graphic",
@@ -78,33 +78,28 @@ function App() {
     },
   ]
 
-
-
   const modalInfo = [
     {
-      explanation: "Project discovery and ideation requires an open line of contact between the client and us from the start to the end of the development to ensure well communicated ideas and improvements.",
-      question: "What is project discovery and ideation about?",
-      answer: ["Sorting out appropriate tools and web technologies to use during development.",
-        "To measure an approximate development time and cost.",
-        "To communicate new ideas, suggestions during development progression."
+      explanation: "Project discovery and planning requires an open line of contact between the client and us from the start to the end of the development to ensure well communicated ideas and improvements.",
+      question: "What is project discovery and planning about?",
+      answer: ["Project introduction and overview",
+        "Sorting out appropriate methodologies and web technologies to use",
+        "Estimate resources to be used",
+        "Estimate deliver time & cost",
+        "Deliver development plan"
       ],
+    },
+    {
+      explanation: "A good User Experience Design should limit the cognitive and visual perception of your customers providing an easy to use and understansable User Interface resulting in increasing traffic, customer retention, and satisfaction.",
+      answer: "During design you will receive an interactive minimum viable product to test each design phase based on feedback before development",
     }, {
-      explanation: "Pixel perfect design is important to keep your online appearance appealing to users and to communicate quality and reliability to them. I create pixel perfect User Interface on any device and revise your current design following Design Principles and deliver a prototype of your application before development. ",
+      explanation: "Pixel perfect design is important to keep your online appearance appealing to customers and to communicate quality and reliability to them which will be valued as your brand. I create pixel perfect User Interface on any device or revise your current design following Design Principles.  You will receive an interactive prototype of your application before development. ",
     }, {
-      explanation: "I manage your web application from Front-end to Back-end to create fluent user experience while using your application.",
-      question: "What exactly does it mean?",
+      explanation: "I manage your web application end-to-end using design patterns and methodologies to ensure quality throughout your whole web app. I manage all your web application from the database and server to your appearance in the browser.",
+      question: "What does it exactly mean?",
       answer: [
-        "Using latest technologies to build fluid interface.",
-        "Unit testing.",
-        "Profiling application performance.",
-        "Using appropriate database types.",
-        "Implementing business logic on server-side.",
-        "Recommendation of reliable hosts or hosting with us.",
-
+        "This means you don't need to hire a second web developer or company to deal with different aspects of the application or make further developments, we can handle all. Finding others to handle an existing work is not cost and time efficient and it is hard to find a new reliable developer.",
       ],
-    }, {
-      explanation: "User Experience Design can improve the usability of your application by creating an immersive user experience that can not only increase the traffic of your website but increase customer retention and satisfaction during interactions with your website.",
-      answer: "Designed User Experience to your web application using Design Principles delivered via Prototype before development.",
     }, {
       explanation: "Nowadays most of the websites or web applications are operating with animations.",
       answer: "Animations help users understand the state of the progress going behind the website they are using. These animations can emphasize the User Experience by constantly giving feedback to the users increasing satisfaction during interactions. ",

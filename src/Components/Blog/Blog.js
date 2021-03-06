@@ -11,7 +11,6 @@ const headers = [
     {
         title: "About",
     },
-
 ]
 const js = [
     {
