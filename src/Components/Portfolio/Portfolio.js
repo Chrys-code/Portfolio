@@ -36,7 +36,7 @@ const slides = [
   }, {
     title: 'Drag&Drop List',
     subtitle: 'MyList',
-    description: "Vanilla JavaScript Trello-clone",
+    description: "Vanilla JavaScript MVC Trello-clone",
     image: require("../../Assets/Images/Portfolio/Trello_1.png"),
     link: "https://chrys-code.github.io/Trello-Clone/",
   },

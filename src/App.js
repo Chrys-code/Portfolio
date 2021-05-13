@@ -25,7 +25,6 @@ const backgroundLight = {
 */
 
 function App() {
-
   const tiles = [
     {
       id: 0,
@@ -125,9 +124,7 @@ function App() {
 
     if (e.target.className !== "modal_wrapper") {
       setIndex(item.id); // get tile info
-
       setIsOpen(!isOpen); // Display modal
-
     } else {
       setIsOpen(!isOpen); // Close modal
     }
@@ -135,9 +132,7 @@ function App() {
 
   return (
     <div className="App" style={backgroundDark} >
-
       {isOpen && <Modal index={index} modalInfo={modalInfo} tiles={tiles} modalHandler={modalHandler} />}
-
       <Navbar />
       <Hero />
       <Presentational section={'about'} title={"About Us"} subTitle={"Why chose me?"} bg={false} >
@@ -159,6 +154,7 @@ function App() {
       <Footer />
     </div>
   );
+
   /*
     <Presentational section={'contact'} title={"Contact Me"} subTitle={"Let's keep in touch!"} bg={false}>
     <Contact />

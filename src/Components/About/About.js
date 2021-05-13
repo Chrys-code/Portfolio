@@ -15,12 +15,12 @@ function About() {
             <div className="about_body_text">
                 <h2>Why chose me?</h2>
                 <p>Currently I am a graduating student at University finishing a course in Digital Design & Web Development and devoting myself to learn web development in my freetime. I deliver web applications with documentations and using appropriate methodologies to ensure quality and non-functional preferences that reflect on the nature of your application.</p>
-                <p>I support my work with a well documented: </p>
+                <p>Software are delivered via methodologies such as: </p>
                 <ul>
-                    <li>User Experience Design</li>
-                    <li>Development Plan</li>
-                    <li>Methodologies</li>
-                    <li>Web Technologies</li>
+                    <li>Software Development Life Cycle</li>
+                    <li>Test-driven development</li>
+                    <li>Waterfall development</li>
+                    <li>Agile development</li>
                 </ul>
                 <div className="about_body_text_buttons">
                     <ScrollIntoView selector="footer">
