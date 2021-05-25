@@ -26,9 +26,7 @@ function About() {
                     <ScrollIntoView selector="footer">
                         <div className="about_body_text_button_1">Hire Me</div>
                     </ScrollIntoView>
-                    <ScrollIntoView selector=".resume">
-                        <div className="about_body_text_button_2">Resume</div>
-                    </ScrollIntoView>
+                    <a href="https://chrys-code.github.io/portfolio/krisztian_nagy_cv.pdf"><div className="about_body_text_button_2">Resume</div></a>
                 </div>
             </div>
         </>

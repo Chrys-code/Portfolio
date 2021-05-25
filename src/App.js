@@ -135,7 +135,7 @@ function App() {
       {isOpen && <Modal index={index} modalInfo={modalInfo} tiles={tiles} modalHandler={modalHandler} />}
       <Navbar />
       <Hero />
-      <Presentational section={'about'} title={"About Us"} subTitle={"Why chose me?"} bg={false} >
+      <Presentational section={'about'} title={"About"} subTitle={"Why chose me?"} bg={false} >
         <About />
       </Presentational>
       <Presentational section={'services'} title={"Services"} subTitle={"Wat can we provide you?"} bg={false}>

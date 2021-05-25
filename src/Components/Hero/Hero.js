@@ -15,10 +15,10 @@ function Hero() {
         height: "362px",
         width: '2165px',
     }
-    
+
     return (
         <div className="hero">
-                <div className="hero_intro">
+            <div className="hero_intro">
                 <div className="hero_intro_info">
                     <h2>Hello, I'm  <span>Krisztian Nagy</span></h2>
                     <h1>Web Developer</h1>
@@ -26,12 +26,10 @@ function Hero() {
                 </div>
                 <div className="hero_intro_buttons">
                     <ScrollIntoView selector="footer">
-                      <div className="hero_intro_button_1">Hire Me</div>
+                        <div className="hero_intro_button_1">Hire Me</div>
                     </ScrollIntoView>
-                    <ScrollIntoView selector=".resume">
-                    <div className="hero_intro_button_2">Resume</div>
-                    </ScrollIntoView>
-            </div>
+                    <a href="https://chrys-code.github.io/portfolio/krisztian_nagy_cv.pdf"><div className="hero_intro_button_2">Resume</div></a>
+                </div>
             </div>
 
             <div className="hero_profileImage">
